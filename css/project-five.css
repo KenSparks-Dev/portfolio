@@ -28,4 +28,45 @@
   text-align: center;
   padding-top: 15px;
 }
+
+@media (min-width: 768px) {
+  .project-five {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #31B2AF;
+    height: 370px;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+  }
+  .project-five__img {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+  .project-five__img a img {
+    width: 340px;
+    height: 240px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+  .project-five__description {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 80px;
+  }
+  .project-five__skills-list {
+    list-style: none;
+  }
+}
 /*# sourceMappingURL=project-five.css.map */
