@@ -1,22 +1,22 @@
-.project-one {
+.project-four {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #4C4E61;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #cf3b41;
   height: 370px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.project-one__img {
+.project-four__img {
   padding-top: 20px;
 }
 
-.project-one__img a img {
+.project-four__img a img {
   width: 310px;
   height: 210px;
   border-radius: 20px;
@@ -24,8 +24,8 @@
   margin: auto;
 }
 
-.project-one__description {
+.project-four__description {
   text-align: center;
   padding-top: 15px;
 }
-/*# sourceMappingURL=project-One.css.map */
+/*# sourceMappingURL=project-four.css.map */

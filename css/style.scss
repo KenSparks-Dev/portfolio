@@ -1,1 +1,11 @@
-@import landing-page.scss
+$client-bg-color:#000;
+$client-title-color:#fff;
+$client-font: 'Permanent Marker', cursive;
+
+.clientprojects{
+  background-color: $client-bg-color;
+  color:$client-title-color;
+  font-family: $client-font;
+  text-align:center;
+  font-size:1.4em;
+}

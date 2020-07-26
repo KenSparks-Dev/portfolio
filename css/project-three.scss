@@ -1,0 +1,29 @@
+$project-three-bg-color:#4F7DF3;
+$project-three-font:'Libre Franklin', sans-serif;
+$project-three-font-colors:#fff;
+
+.project-three{
+  display:flex;
+  background-color: $project-three-bg-color;
+  height:370px;
+  flex-direction: column;
+  color:$project-three-font-colors;
+  font-family:$project-three-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

@@ -1,0 +1,29 @@
+$project-six-bg-color:#FFFFFF;
+$project-six-font:"Fabriga Light";
+$project-six-font-colors:#333333;
+
+.project-six{
+  display:flex;
+  background-color: $project-six-bg-color;
+  flex-direction: column;
+  height:370px;
+  color:$project-six-font-colors;
+  font-family:$project-six-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

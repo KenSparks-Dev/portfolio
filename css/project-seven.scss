@@ -1,0 +1,29 @@
+$project-seven-bg-color:#77B255;
+$project-seven-font:"Source Sans Pro";
+$project-seven-font-colors:#fff;
+
+.project-seven{
+  display:flex;
+  background-color: $project-seven-bg-color;
+  flex-direction: column;
+  height: 370px;
+  color:$project-seven-font-colors;
+  font-family:$project-seven-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

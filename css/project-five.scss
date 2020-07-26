@@ -1,0 +1,29 @@
+$project-five-bg-color:#31B2AF;
+$project-five-font:'Karla', sans-serif;
+$project-five-font-colors:#fff;
+
+.project-five{
+  display:flex;
+  background-color: $project-five-bg-color;
+  flex-direction: column;
+  height: 370px;
+  color:$project-five-font-colors;
+  font-family:$project-five-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

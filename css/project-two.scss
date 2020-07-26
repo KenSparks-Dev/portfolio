@@ -1,0 +1,29 @@
+$project-two-bg-color:#6B2B77;
+$project-two-font:'Open Sans', sans-serif;;
+$project-two-font-colors:#fff;
+
+.project-two{
+  display:flex;
+  background-color: $project-two-bg-color;
+  height: 370px;
+  flex-direction: column;
+  color:$project-two-font-colors;
+  font-family:$project-two-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

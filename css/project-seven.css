@@ -1,22 +1,22 @@
-.project-one {
+.project-seven {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #77B255;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #cf3b41;
   height: 370px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro";
 }
 
-.project-one__img {
+.project-seven__img {
   padding-top: 20px;
 }
 
-.project-one__img a img {
+.project-seven__img a img {
   width: 310px;
   height: 210px;
   border-radius: 20px;
@@ -24,8 +24,8 @@
   margin: auto;
 }
 
-.project-one__description {
+.project-seven__description {
   text-align: center;
   padding-top: 15px;
 }
-/*# sourceMappingURL=project-One.css.map */
+/*# sourceMappingURL=project-seven.css.map */

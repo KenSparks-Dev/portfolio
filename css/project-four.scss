@@ -1,0 +1,29 @@
+$project-four-bg-color:#4C4E61;
+$project-four-font: 'Poppins', sans-serif;
+$project-four-font-colors:#fff;
+
+.project-four{
+  display:flex;
+  background-color: $project-four-bg-color;
+  flex-direction: column;
+  height: 370px;
+  color:$project-four-font-colors;
+  font-family:$project-four-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}

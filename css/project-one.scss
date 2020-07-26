@@ -1,0 +1,29 @@
+$project-one-bg-color:#cf3b41;
+$project-one-font:'Montserrat', sans-serif;
+$project-one-font-colors:#fff;
+
+.project-one{
+  display:flex;
+  flex-direction: column;
+  background-color: $project-one-bg-color;
+  height: 370px;
+  color: $project-one-font-colors;
+  font-family: $project-one-font;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__description{
+    text-align: center;
+    padding-top:15px;
+  }
+}
