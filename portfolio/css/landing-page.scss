@@ -1,0 +1,33 @@
+$lp-bg-color:#000;
+$lp-title-color:#fff;
+$marker-font: 'Permanent Marker', cursive;
+
+*{
+  padding:0;
+  margin:0
+}
+
+body{
+  height:100%;
+}
+
+.landing-page{
+  display:flex;
+  background:$lp-bg-color;
+  height:400px;
+  color:$lp-title-color;
+
+  &__text{
+    margin:auto;
+    font-family: $marker-font;
+
+  }
+  &__text__title{
+    font-size:3em;
+  }
+
+  &__contact{
+    flex-direction: row;
+    position: absolute;
+  }
+}

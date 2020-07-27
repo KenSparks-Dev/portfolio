@@ -1,0 +1,13 @@
+@import "mixins";
+@import "variables";
+
+.project-even{
+  @include project-mobile-even;
+  background-color: $project-six-bg-color;
+  color: $project-six-font-colors ;
+  font-family: $project-six-font;
+}
+
+@media (min-width: 768px) {
+  @include project-768-even;
+}

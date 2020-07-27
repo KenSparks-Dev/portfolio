@@ -1,0 +1,72 @@
+.project-odd {
+  background-color: #cf3b49;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-odd .project-odd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 375px;
+}
+
+.project-odd .project-odd__img {
+  padding-top: 20px;
+}
+
+.project-odd .project-odd__img a img {
+  width: 310px;
+  height: 210px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.project-odd .project-odd__text {
+  text-align: center;
+  padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .project-odd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 370px;
+  }
+  .project-odd__img {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+  .project-odd__img a img {
+    width: 340px;
+    height: 240px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+  .project-odd__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 80px;
+  }
+  .project-odd__skills-list {
+    list-style: none;
+  }
+}
+/*# sourceMappingURL=project-one.css.map */

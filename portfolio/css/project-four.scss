@@ -1,0 +1,64 @@
+
+
+.project-four{
+  display:flex;
+  background-color: $project-four-bg-color;
+  flex-direction: column;
+  height: 370px;
+  color:$project-four-font-colors;
+  font-family:$project-four-font ;
+
+  &__img{
+    padding-top:20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height:210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__text{
+    text-align: center;
+    padding-top:15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-four{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: $project-four-bg-color;
+    height: 370px;
+    color: $project-four-font-colors;
+    font-family: $project-four-font;
+
+    &__img{
+      flex:2;
+      padding-top:20px;
+      margin-top:30px;
+    }
+
+    &__img a img{
+      width: 340px;
+      height:240px;
+      border-radius: 20px;
+      display: block;
+      margin: auto;
+    }
+
+    &__text{
+      flex:1;
+      text-align: initial;
+      padding-top:15px;
+      margin-top:80px;
+      margin-left:10%;
+    }
+
+    &__skills-list{
+      list-style: none;
+    }
+  }
+}

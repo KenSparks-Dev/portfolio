@@ -1,0 +1,13 @@
+@import "mixins";
+@import "variables";
+
+.project-odd{
+  @include project-mobile-odd;
+  background-color: $project-three-bg-color;
+  color: $project-three-font-colors;
+  font-family: $project-three-font;
+}
+
+@media (min-width: 768px) {
+  @include project-768-odd;
+}
