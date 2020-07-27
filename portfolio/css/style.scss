@@ -2,6 +2,22 @@ $client-bg-color:#000;
 $client-title-color:#fff;
 $client-font: 'Permanent Marker', cursive;
 
+@import "mixins";
+@import "variables";
+
+.project{
+  @include project-styles;
+  @media(min-width: 768px){
+    @include project-768;
+  }
+}
+
+@for $i from 1 through length($bg-colors) {
+  .project:nth-child(#{$i}){
+    background-color: nth($bg-colors, $i);
+  }
+}
+
 .clientprojects{
   background-color: $client-bg-color;
   color:$client-title-color;

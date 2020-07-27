@@ -1,3 +1,105 @@
+/*SCSS list*/
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 375px;
+}
+
+.project__img {
+  padding-top: 20px;
+}
+
+.project__img a img {
+  width: 310px;
+  height: 210px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.project__text {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.project:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media (min-width: 768px) {
+  .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 370px;
+  }
+  .project__img {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+  .project__img a img {
+    width: 340px;
+    height: 240px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+  .project__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 80px;
+  }
+  .project__skills-list {
+    list-style: none;
+  }
+}
+
+.project:nth-child(1) {
+  background-color: #cf3b49;
+}
+
+.project:nth-child(2) {
+  background-color: #6B2B77;
+}
+
+.project:nth-child(3) {
+  background-color: #4F7DF3;
+}
+
+.project:nth-child(4) {
+  background-color: #4C4E61;
+}
+
+.project:nth-child(5) {
+  background-color: #31B2AF;
+}
+
+.project:nth-child(6) {
+  background-color: #FFFFFF;
+}
+
+.project:nth-child(7) {
+  background-color: #77B255;
+}
+
 .clientprojects {
   background-color: #000;
   color: #fff;

@@ -1,4 +1,11 @@
+/*SCSS list*/
 .project-odd {
+  background-color: #77B255;
+  color: #fff;
+  font-family: "Source Sans Pro";
+}
+
+.project-odd .project-odd {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,16 +14,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: 375px;
-  background-color: #77B255;
-  color: #fff;
-  font-family: "Source Sans Pro";
 }
 
-.project-odd__img {
+.project-odd .project-odd__img {
   padding-top: 20px;
 }
 
-.project-odd__img a img {
+.project-odd .project-odd__img a img {
   width: 310px;
   height: 210px;
   border-radius: 20px;
@@ -24,7 +28,7 @@
   margin: auto;
 }
 
-.project-odd__text {
+.project-odd .project-odd__text {
   text-align: center;
   padding-top: 15px;
 }
