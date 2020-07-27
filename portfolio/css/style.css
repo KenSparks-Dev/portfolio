@@ -27,13 +27,6 @@
   padding-top: 15px;
 }
 
-.project:nth-child(odd) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
 @media (min-width: 768px) {
   .project {
     display: -webkit-box;
@@ -70,34 +63,57 @@
   .project__skills-list {
     list-style: none;
   }
+  .project:nth-child(odd) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .project:nth-child(even) {
+    padding-right: 10%;
+  }
 }
 
 .project:nth-child(1) {
   background-color: #cf3b49;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 .project:nth-child(2) {
   background-color: #6B2B77;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
 }
 
 .project:nth-child(3) {
   background-color: #4F7DF3;
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
 }
 
 .project:nth-child(4) {
   background-color: #4C4E61;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 .project:nth-child(5) {
   background-color: #31B2AF;
+  font-family: "Karla", sans-serif;
+  color: #fff;
 }
 
 .project:nth-child(6) {
   background-color: #FFFFFF;
+  font-family: "Fabriga Light";
+  color: #333333;
 }
 
 .project:nth-child(7) {
   background-color: #77B255;
+  font-family: "Source Sans Pro";
+  color: #fff;
 }
 
 .clientprojects {

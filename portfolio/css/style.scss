@@ -15,6 +15,8 @@ $client-font: 'Permanent Marker', cursive;
 @for $i from 1 through length($bg-colors) {
   .project:nth-child(#{$i}){
     background-color: nth($bg-colors, $i);
+    font-family: nth($fonts, $i);
+    color: nth($font-colors, $i);
   }
 }
 

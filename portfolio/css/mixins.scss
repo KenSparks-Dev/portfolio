@@ -19,10 +19,6 @@
     text-align: center;
     padding-top:15px;
   }
-
-  &:nth-child( odd ) {
-      flex-direction: row-reverse;
-  }
 }
 
 
@@ -56,6 +52,13 @@
     &__skills-list{
       list-style: none;
     }
+
+    &:nth-child( odd ) {
+      flex-direction: row-reverse;
+  }
+    &:nth-child( even ){
+      padding-right:10%;
+  }
   }
 
 @mixin project-mobile-odd{
