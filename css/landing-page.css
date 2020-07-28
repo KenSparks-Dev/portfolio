@@ -11,6 +11,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #000;
   background-image: url(/portfolio/images/me2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,11 +23,11 @@ body {
   margin: auto;
   font-family: "Permanent Marker", cursive;
   padding-top: 200px;
-  text-shadow: 4px 2px black;
 }
 
 .landing-page__text__title {
   font-size: 3em;
+  text-shadow: 4px 2px black;
 }
 
 .landing-page__contact {
@@ -35,5 +36,89 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   position: absolute;
+}
+
+.landing-page__text__resume-link {
+  display: none;
+  text-decoration: none;
+  border: 1px #fff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+@media (min-width: 768px) {
+  .landing-page {
+    height: 700px;
+  }
+  .landing-page__text {
+    padding-top: 500px;
+    text-shadow: 4px 2px black;
+  }
+  .landing-page__text__title {
+    font-size: 4.5em;
+    text-shadow: 6px 4px black;
+  }
+  .landing-page_text__subtitle {
+    font-size: 1.5em;
+    text-shadow: 2px 5px black;
+  }
+}
+
+@media (min-width: 1064px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y: -380px;
+  }
+  .landing-page__text {
+    padding-top: 500px;
+    text-shadow: 4px 2px black;
+  }
+  .landing-page__text__title {
+    font-size: 4.5em;
+    text-shadow: 6px 4px black;
+  }
+  .landing-page_text__subtitle {
+    font-size: 1.5em;
+    text-shadow: 2px 5px black;
+  }
+}
+
+@media (min-width: 1280px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y: -380px;
+  }
+  .landing-page__text {
+    padding-top: 450px;
+    text-shadow: 4px 2px black;
+  }
+  .landing-page__text__title {
+    font-size: 6.5em;
+    text-shadow: 6px 4px black;
+  }
+  .landing-page_text__subtitle {
+    font-size: 1.65em;
+    text-shadow: 2px 5px black;
+  }
+}
+
+@media (min-width: 1440px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y: -380px;
+  }
+  .landing-page__text {
+    padding-top: 670px;
+    text-shadow: 4px 2px black;
+  }
+  .landing-page__text__title {
+    font-size: 7.5em;
+    text-shadow: 6px 4px black;
+  }
+  .landing-page_text__subtitle {
+    font-size: 2.0em;
+    text-shadow: 2px 5px black;
+  }
 }
 /*# sourceMappingURL=landing-page.css.map */

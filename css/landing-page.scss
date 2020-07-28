@@ -13,24 +13,122 @@ body{
 
 .landing-page{
   display:flex;
+  background-color:$lp-bg-color;
   background-image: url(/portfolio/images/me2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height:400px;
   color:$lp-title-color;
 
-  &__text{
+  &__text {
     margin:auto;
     font-family: $marker-font;
     padding-top:200px;
-    text-shadow: 4px 2px black;
-  }
-  &__text__title{
-    font-size:3em;
   }
 
-  &__contact{
+  &__text__title {
+    font-size:3em;
+    text-shadow: 4px 2px black;
+  }
+
+  &__contact {
     flex-direction: row;
     position: absolute;
+  }
+
+  &__text__resume-link {
+    display:none;
+    text-decoration: none;
+    border:1px #fff;
+    color:#fff;
+    border-radius: 20px;
+    padding:2px;
+  }
+}
+
+@media(min-width: 768px){
+  .landing-page{
+    height:700px;
+
+    &__text{
+      padding-top:500px;
+      text-shadow: 4px 2px black;
+    }
+
+    &__text__title{
+      font-size:4.5em;
+      text-shadow: 6px 4px black;
+
+    }
+    &_text__subtitle{
+      font-size:1.5em;
+      text-shadow: 2px 5px black;
+    }
+  }
+}
+
+@media(min-width: 1064px){
+  .landing-page{
+    height:100vh;
+    background-position-y: -380px;
+
+    &__text{
+      padding-top:500px;
+      text-shadow: 4px 2px black;
+    }
+
+    &__text__title{
+      font-size:4.5em;
+      text-shadow: 6px 4px black;
+
+    }
+    &_text__subtitle{
+      font-size:1.5em;
+      text-shadow: 2px 5px black;
+    }
+  }
+}
+
+@media(min-width: 1280px){
+  .landing-page{
+    height:100vh;
+    background-position-y: -380px;
+
+    &__text{
+      padding-top:450px;
+      text-shadow: 4px 2px black;
+    }
+
+    &__text__title{
+      font-size:6.5em;
+      text-shadow: 6px 4px black;
+
+    }
+    &_text__subtitle{
+      font-size:1.65em;
+      text-shadow: 2px 5px black;
+    }
+  }
+}
+
+@media(min-width: 1440px){
+  .landing-page{
+    height:100vh;
+    background-position-y: -380px;
+
+    &__text{
+      padding-top:670px;
+      text-shadow: 4px 2px black;
+    }
+
+    &__text__title{
+      font-size:7.5em;
+      text-shadow: 6px 4px black;
+
+    }
+    &_text__subtitle{
+      font-size:2.0em;
+      text-shadow: 2px 5px black;
+    }
   }
 }
