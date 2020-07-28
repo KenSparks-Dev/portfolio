@@ -1,0 +1,32 @@
+/*SCSS list*/
+
+
+$project-one-bg-color:#cf3b49;
+$project-one-font:'Montserrat', sans-serif;
+$project-one-font-colors:#fff;
+
+$project-two-bg-color:#6B2B77;
+$project-two-font:'Open Sans', sans-serif;;
+$project-two-font-colors:#ffffff;
+
+$project-three-bg-color:#4F7DF3;
+$project-three-font:'Libre Franklin', sans-serif;
+$project-three-font-colors:#fff;
+
+$project-four-bg-color:#4C4E61;
+$project-four-font: 'Poppins', sans-serif;
+$project-four-font-colors:#fff;
+
+$project-five-bg-color:#31B2AF;
+$project-five-font:'Karla', sans-serif;
+$project-five-font-colors:#fff;
+
+
+
+
+
+$bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color;
+
+$fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font;
+
+$font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors,

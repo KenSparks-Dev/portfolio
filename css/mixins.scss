@@ -1,0 +1,56 @@
+@mixin project-styles{
+  display:flex;
+  flex-direction: column;
+  height: 375px;
+
+  &__img{
+    padding-top: 20px
+  }
+
+  &__img a img{
+    width: 310px;
+    height: 210px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  &__text{
+    text-align: center;
+    padding-top:15px;
+  }
+
+  &__skills-list{
+    list-style: none;
+  }
+
+  @media(min-width: 768px){
+    flex-direction: row;
+
+    &__img {
+      flex:3;
+      margin-top:30px;
+    }
+
+    &__img a img {
+      width: 340px;
+      height: 240px;
+    }
+
+    &__text{
+      flex: 2;
+      margin-top:80px;
+      padding-left:40px;
+    }
+
+    &:nth-child( even ) {
+      flex-direction: row-reverse;
+
+      &__text{
+        text-align: center;
+        padding-top:15px;
+      }
+    }
+  }
+}
+

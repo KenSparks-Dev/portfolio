@@ -1,3 +1,102 @@
+/*SCSS list*/
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 375px;
+}
+
+.project__img {
+  padding-top: 20px;
+}
+
+.project__img a img {
+  width: 310px;
+  height: 210px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.project__text {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.project__skills-list {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .project {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .project__img {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    margin-top: 30px;
+  }
+  .project__img a img {
+    width: 340px;
+    height: 240px;
+  }
+  .project__text {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-top: 80px;
+    padding-left: 40px;
+  }
+  .project:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .project:nth-child(even)__text {
+    text-align: center;
+    padding-top: 15px;
+  }
+}
+
+.project:nth-child(1) {
+  background-color: #cf3b49;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(2) {
+  background-color: #6B2B77;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.project:nth-child(3) {
+  background-color: #4F7DF3;
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(4) {
+  background-color: #4C4E61;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(5) {
+  background-color: #31B2AF;
+  font-family: "Karla", sans-serif;
+  color: #fff;
+}
+
 .clientprojects {
   background-color: #000;
   color: #fff;

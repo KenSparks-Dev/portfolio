@@ -13,14 +13,17 @@ body{
 
 .landing-page{
   display:flex;
-  background:$lp-bg-color;
+  background-image: url(/portfolio/images/me2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height:400px;
   color:$lp-title-color;
 
   &__text{
     margin:auto;
     font-family: $marker-font;
-
+    padding-top:200px;
+    text-shadow: 4px 2px black;
   }
   &__text__title{
     font-size:3em;
