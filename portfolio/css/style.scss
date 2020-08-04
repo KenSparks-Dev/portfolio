@@ -7,16 +7,15 @@ $client-font: 'Permanent Marker', cursive;
 
 .project{
   @include project-styles;
-  @media(min-width: 768px){
-    @include project-768;
-  }
 }
 
 @for $i from 1 through length($bg-colors) {
-  .project:nth-child(#{$i}){
-    background-color: nth($bg-colors, $i);
-    font-family: nth($fonts, $i);
-    color: nth($font-colors, $i);
+  .project{
+    &:nth-child(#{$i}) {
+      background-color: nth($bg-colors, $i);
+      font-family: nth($fonts, $i);
+      color: nth($font-colors, $i);
+    }
   }
 }
 

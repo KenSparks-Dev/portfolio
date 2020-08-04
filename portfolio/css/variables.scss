@@ -21,19 +21,12 @@ $project-five-bg-color:#31B2AF;
 $project-five-font:'Karla', sans-serif;
 $project-five-font-colors:#fff;
 
-$project-six-bg-color:#FFFFFF;
-$project-six-font:"Fabriga Light";
-$project-six-font-colors:#333333;
-
-$project-seven-bg-color:#77B255;
-$project-seven-font:"Source Sans Pro";
-$project-seven-font-colors:#fff;
 
 
 
 
-$bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color, $project-six-bg-color, $project-seven-bg-color;
+$bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color;
 
-$fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font, $project-six-font, $project-seven-font;
+$fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font;
 
-$font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors, $project-six-font-colors, $project-seven-font-colors;
+$font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors,
