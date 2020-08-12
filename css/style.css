@@ -27,6 +27,10 @@
   padding-top: 15px;
 }
 
+.project p {
+  display: none;
+}
+
 .project__skills-list {
   list-style: none;
 }
@@ -53,9 +57,52 @@
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .project__text p {
+    display: unset;
+    font-size: 16px;
+    line-height: 5px;
+  }
+  .project__text__skills-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+  }
+  .project__text:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .project__text:nth-child(even)__text {
+    text-align: center;
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+  }
+  .project__img {
+    margin-top: 30px;
+  }
+  .project__img a img {
+    width: 940px;
+    height: 740px;
+  }
+  .project__text {
     margin-top: 80px;
-    padding-left: 40px;
-    font-size: 1.8em;
+    font-size: 3rem;
   }
   .project:nth-child(even) {
     -webkit-box-orient: horizontal;
@@ -67,9 +114,19 @@
     text-align: center;
     padding-top: 15px;
   }
+  .project:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project:nth-child(even)__text {
+    text-align: center;
+    padding-top: 15px;
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .project {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -92,8 +149,8 @@
         -ms-flex: 1;
             flex: 1;
     margin-top: 80px;
-    padding-left: 40px;
-    font-size: 3em;
+    font-size: 3rem;
+    padding-right: 40px;
   }
   .project:nth-child(even) {
     -webkit-box-orient: horizontal;
