@@ -1,0 +1,71 @@
+$profile-font: 'Work Sans', sans-serif;
+$background-color:#F5F5F5;
+$text-field-bg:#375397;
+$font-color:#fff;
+$title-color:#2a3132;
+$pill-color:#3f681c;
+
+*{
+  margin:0;
+  padding:0
+}
+
+body{
+  background-color:$background-color
+}
+
+.profile {
+    font-family: $profile-font;
+    width:95%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+
+  &__titles{
+    margin:20px 0px;
+    color:$title-color;
+  }
+  &__textfield{
+    font-size:18px;
+    color:$font-color;
+    background-color:$text-field-bg;
+    padding:10px;
+    border-radius:20px;
+    font-weight:500;
+  }
+  &__skills{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &__skills-item{
+    background-color:$text-field-bg;
+    border-radius: 10px;
+    width:72px;
+    padding:4px;
+    font-size:12px;
+    font-weight:600;
+    color:$font-color;
+    margin:2px;
+    list-style:none;
+    text-align: center;
+    font-weight:600;
+  }
+
+  &__email{
+    margin:0 auto;
+    background-color:$text-field-bg;
+    border-radius: 10px;
+    width:235px;
+    padding:4px;
+    font-size:22px;
+    font-weight:600;
+    color:$font-color;
+    list-style:none;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:30px;
+    cursor: pointer;
+  }
+}
