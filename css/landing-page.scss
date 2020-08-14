@@ -1,134 +1,151 @@
-$lp-bg-color:#000;
-$lp-title-color:#fff;
-$marker-font: 'Permanent Marker', cursive;
+$lp-bg-color: #000;
+$lp-title-color: #fff;
+$marker-font:  'Permanent Marker', cursive;
 
-*{
-  padding:0;
-  margin:0
+* {
+  padding: 0;
+  margin: 0
 }
 
-body{
-  height:100%;
+body  {
+  height: 100%;
 }
 
-.landing-page{
+.landing-page {
+  display: flex;
+  background: $lp-bg-color;
+  background-image:  url(/portfolio/images/me2.jpg);
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  height: 400px;
+  color: $lp-title-color;
+  flex-direction: column;
+
+  &__ul {
   display:flex;
-  background:$lp-bg-color;
-  background-image: url(/portfolio/images/me2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:400px;
-  color:$lp-title-color;
+  justify-content: flex-end;
+  list-style: none;
+}
 
-  &__text {
-    margin:auto;
+  &__li a {
+    display:inline-block;
+    text-decoration:  none;
+    color: $lp-title-color;
+    font-size:20px;
+    padding:15px;
     font-family: $marker-font;
-    padding-top:200px;
+    cursor: pointer;
+}
+
+  &__text   {
+    margin: auto;
+    font-family:  $marker-font;
+    padding-top: 200px;
   }
 
-  &__text__title {
-    font-size:3em;
-    text-shadow: 4px 2px black;
+  &__text__title  {
+    font-size: 3em;
+    text-shadow:  4px 2px black;
   }
 
-  &__contact {
-    flex-direction: row;
-    position: absolute;
+  &__contact  {
+    flex-direction:  row;
+    position:  absolute;
   }
 
-  &__text__resume-link {
-    display:none;
-    text-decoration: none;
-    border:1px #fff;
-    color:#fff;
-    border-radius: 20px;
-    padding:2px;
+  &__text__resume-link  {
+    display: none;
+    text-decoration:  none;
+    border: 1px #fff;
+    color: #fff;
+    border-radius:  20px;
+    padding: 2px;
   }
 }
 
-@media(min-width: 768px){
-  .landing-page{
-    height:700px;
+@media(min-width:  768px)  {
+  .landing-page {
+    height: 700px;
 
-    &__text{
-      padding-top:500px;
-      text-shadow: 4px 2px black;
+    &__text {
+      padding-top: 500px;
+      text-shadow:  4px 2px black;
     }
 
-    &__text__title{
-      font-size:4.5em;
-      text-shadow: 6px 4px black;
+    &__text__title  {
+      font-size: 4.5em;
+      text-shadow:  6px 4px black;
 
     }
-    &_text__subtitle{
-      font-size:1.5em;
-      text-shadow: 2px 5px black;
-    }
-  }
-}
-
-@media(min-width: 1064px){
-  .landing-page{
-    height:100vh;
-    background-position-y: -380px;
-
-    &__text{
-      padding-top:500px;
-      text-shadow: 4px 2px black;
-    }
-
-    &__text__title{
-      font-size:4.5em;
-      text-shadow: 6px 4px black;
-
-    }
-    &_text__subtitle{
-      font-size:1.5em;
-      text-shadow: 2px 5px black;
+    &_text__subtitle  {
+      font-size: 1.6em;
+      text-shadow:  2px 5px black;
     }
   }
 }
 
-@media(min-width: 1280px){
-  .landing-page{
-    height:100vh;
-    background-position-y: -380px;
+@media(min-width:  1064px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y:  -380px;
 
-    &__text{
-      padding-top:450px;
-      text-shadow: 4px 2px black;
+    &__text {
+      padding-top: 500px;
+      text-shadow:  4px 2px black;
     }
 
-    &__text__title{
-      font-size:6.5em;
-      text-shadow: 6px 4px black;
+    &__text__title  {
+      font-size: 4.5em;
+      text-shadow:  6px 4px black;
 
     }
-    &_text__subtitle{
-      font-size:1.65em;
-      text-shadow: 2px 5px black;
+    &_text__subtitle  {
+      font-size: 1.5em;
+      text-shadow:  2px 5px black;
     }
   }
 }
 
-@media(min-width: 1440px){
-  .landing-page{
-    height:100vh;
-    background-position-y: -380px;
+@media(min-width:  1280px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y:  -380px;
 
-    &__text{
-      padding-top:670px;
-      text-shadow: 4px 2px black;
+    &__text {
+      padding-top: 450px;
+      text-shadow:  4px 2px black;
     }
 
-    &__text__title{
-      font-size:7.5em;
-      text-shadow: 6px 4px black;
+    &__text__title  {
+      font-size: 6.5em;
+      text-shadow:  6px 4px black;
 
     }
-    &_text__subtitle{
-      font-size:2.0em;
-      text-shadow: 2px 5px black;
+    &_text__subtitle  {
+      font-size: 1.65em;
+      text-shadow:  2px 5px black;
+    }
+  }
+}
+
+@media(min-width:  1440px) {
+  .landing-page {
+    height: 100vh;
+    background-position-y:  -380px;
+
+    &__text {
+      padding-top: 670px;
+      text-shadow:  4px 2px black;
+    }
+
+    &__text__title  {
+      font-size: 7.5em;
+      text-shadow:  6px 4px black;
+
+    }
+    &_text__subtitle  {
+      font-size: 2.0em;
+      text-shadow:  2px 5px black;
     }
   }
 }
