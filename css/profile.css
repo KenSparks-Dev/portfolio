@@ -18,6 +18,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .profile__titles {
@@ -61,27 +62,20 @@ body {
   font-weight: 600;
 }
 
-.profile__email {
-  margin: 0 auto;
-  background-color: #375397;
-  border-radius: 10px;
-  width: 235px;
-  padding: 4px;
-  font-size: 22px;
-  font-weight: 600;
-  color: #fff;
-  list-style: none;
-  text-align: center;
-  text-decoration: none;
+.footer {
+  display:flex;
+  font-family: "Work Sans", sans-serif;
+  margin: auto;
+  width: 95%;
   margin-bottom: 30px;
-  cursor: pointer;
+
 }
 
-.profile__projects {
-  margin: 0 auto;
+.footer__link {
+  flex:1;
   background-color: #375397;
   border-radius: 10px;
-  width: 235px;
+  width: 150px;
   padding: 4px;
   font-size: 22px;
   font-weight: 600;
@@ -89,7 +83,7 @@ body {
   list-style: none;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 30px;
+  margin: 5px;
   cursor: pointer;
 }
 /*# sourceMappingURL=profile.css.map */
