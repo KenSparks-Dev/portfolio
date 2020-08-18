@@ -37,6 +37,7 @@ body{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom:20px;
   }
 
   &__skills-item{
@@ -54,6 +55,22 @@ body{
   }
 
   &__email{
+    margin:0 auto;
+    background-color:$text-field-bg;
+    border-radius: 10px;
+    width:235px;
+    padding:4px;
+    font-size:22px;
+    font-weight:600;
+    color:$font-color;
+    list-style:none;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:30px;
+    cursor: pointer;
+  }
+
+  &__projects {
     margin:0 auto;
     background-color:$text-field-bg;
     border-radius: 10px;
