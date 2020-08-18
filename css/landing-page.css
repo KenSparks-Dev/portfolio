@@ -76,6 +76,10 @@ body {
     height: 470px;
     background-position-y: -200px;
   }
+  .landing-page__li a {
+    font-size: 30px;
+    padding: 18px;
+  }
   .landing-page__text {
     padding-top: 200px;
     text-shadow: 4px 2px black;
@@ -114,8 +118,12 @@ body {
     height: 100vh;
     background-position-y: -380px;
   }
+  .landing-page__li a {
+    font-size: 40px;
+    padding: 0 20px;
+  }
   .landing-page__text {
-    padding-top: 400px;
+    padding-top: 450px;
     text-shadow: 4px 2px black;
   }
   .landing-page__text__title {
@@ -134,7 +142,7 @@ body {
     background-position-y: -380px;
   }
   .landing-page__text {
-    padding-top: 670px;
+    padding-top: 590px;
     text-shadow: 4px 2px black;
   }
   .landing-page__text__title {

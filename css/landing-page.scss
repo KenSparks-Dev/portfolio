@@ -68,6 +68,11 @@ body  {
     height:470px;
     background-position-y: -200px;
 
+    &__li a{
+      font-size:30px;
+      padding:18px;
+    }
+
     &__text {
       padding-top: 200px;
       text-shadow:  4px 2px black;
@@ -89,6 +94,7 @@ body  {
   .landing-page {
     height:570px;
     background-position-y:  -290px;
+
 
     &__text {
       padding-top: 300px;
@@ -112,8 +118,13 @@ body  {
     height: 100vh;
     background-position-y:  -380px;
 
+    &__li a{
+      font-size:40px;
+      padding:0 20px;
+    }
+
     &__text {
-      padding-top: 400px;
+      padding-top: 450px;
       text-shadow:  4px 2px black;
     }
 
@@ -135,7 +146,7 @@ body  {
     background-position-y:  -380px;
 
     &__text {
-      padding-top: 670px;
+      padding-top: 590px;
       text-shadow:  4px 2px black;
     }
 
