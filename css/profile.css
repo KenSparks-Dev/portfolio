@@ -63,19 +63,19 @@ body {
 }
 
 .footer {
-  display:flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-family: "Work Sans", sans-serif;
-  margin: auto;
+  margin: 0 auto;
   width: 95%;
   margin-bottom: 30px;
-
 }
 
 .footer__link {
-  flex:1;
   background-color: #375397;
   border-radius: 10px;
-  width: 150px;
+  width: 200px;
   padding: 4px;
   font-size: 22px;
   font-weight: 600;
@@ -85,5 +85,84 @@ body {
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    font-family: "Work Sans", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .profile__titles {
+    margin: 20px 0px;
+    color: #2a3132;
+  }
+  .profile__textfield {
+    font-size: 24px;
+    color: #fff;
+    background-color: #375397;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .profile__skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .profile__skills-item {
+    background-color: #375397;
+    border-radius: 10px;
+    width: 95px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 2px;
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    margin: auto;
+    width: 95%;
+    margin: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__link {
+    background-color: #375397;
+    border-radius: 10px;
+    width: 300px;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=profile.css.map */
