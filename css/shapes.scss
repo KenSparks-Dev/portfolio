@@ -32,7 +32,7 @@ body{
     @include triangle;
   }
 
-  &__triangle:nth-child(1){
+  &__triangle:nth-child(1) {
     border-top: 400px solid lightcoral;
     border-left: 400px solid transparent;
     border-right: 400px solid transparent;
