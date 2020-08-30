@@ -1,0 +1,182 @@
+/*SCSS list*/
+body {
+  overflow-x: hidden;
+}
+
+.shapes__square {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.shapes__square:nth-child(1) {
+  background-color: lightcoral;
+  top: 1000px;
+  left: 17px;
+  width: 155px;
+  height: 55px;
+}
+
+.shapes__square:nth-child(2) {
+  top: 1000px;
+  left: 17px;
+  width: 155px;
+  height: 755px;
+  background-color: darkcyan;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.shapes__square:nth-child(3) {
+  background-color: springgreen;
+  top: 610px;
+  left: 117px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 1950px;
+  height: 50px;
+  opacity: 0.7;
+}
+
+.shapes__square:nth-child(4) {
+  background-color: lightcoral;
+  top: 500px;
+  left: 1417px;
+  width: 155px;
+  height: 155px;
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
+}
+
+.shapes__square:nth-child(5) {
+  background-color: darkcyan;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.shapes__square:nth-child(6) {
+  background-color: springgreen;
+  top: 1330px;
+  left: 907px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 150px;
+  height: 150px;
+  opacity: 0.7;
+}
+
+.shapes__square:nth-child(7) {
+  background-color: lightcoral;
+  top: 0px;
+  left: 617px;
+  width: 355px;
+  height: 355px;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.shapes__square:nth-child(8) {
+  background-color: darkcyan;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.shapes__square:nth-child(9) {
+  background-color: springgreen;
+  top: 1330px;
+  left: 907px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 150px;
+  height: 150px;
+  opacity: 0.7;
+}
+
+@media (min-width: 1280px) {
+  .shapes__square {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+  .shapes__square:nth-child(1) {
+    background-color: lightcoral;
+    top: 715px;
+    left: 1150px;
+    width: 155px;
+    height: 55px;
+  }
+  .shapes__square:nth-child(2) {
+    top: 1200px;
+    left: 245px;
+    width: 155px;
+    height: 755px;
+    background-color: darkcyan;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  .shapes__square:nth-child(3) {
+    background-color: springgreen;
+    top: 780px;
+    left: 575px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+  }
+  .shapes__square:nth-child(4) {
+    background-color: lightcoral;
+    top: 50px;
+    left: 1517px;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  .shapes__square:nth-child(5) {
+    background-color: darkcyan;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  .shapes__square:nth-child(6) {
+    background-color: springgreen;
+    top: 330px;
+    left: 1107px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+  }
+  .shapes__square:nth-child(7) {
+    background-color: lightcoral;
+    top: 30px;
+    left: 617px;
+    width: 55px;
+    height: 55px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  .shapes__square:nth-child(8) {
+    background-color: darkcyan;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    width: 55px;
+    height: 55px;
+  }
+  .shapes__square:nth-child(9) {
+    background-color: springgreen;
+    top: 1130px;
+    left: 07px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+  }
+}
+/*# sourceMappingURL=squares.css.map */

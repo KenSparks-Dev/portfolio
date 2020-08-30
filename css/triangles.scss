@@ -1,0 +1,194 @@
+@import "variables";
+@include $shape-colors;
+
+@mixin triangle {
+  position: fixed;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.shapes{
+  &__triangle {
+    @include triangle;
+  }
+  
+  &__triangle:nth-child(1) {
+    border-top: 50px solid lightcoral;
+    border-left: 50px solid transparent;
+    border-right: 10px solid transparent;
+    top:405px;
+    left:150px;
+    opacity:0.8;
+  }
+  
+  &__triangle:nth-child(2){
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid darkcyan;
+    transform: rotate(30deg);
+    top:1200px;
+    left:245px;
+  }
+  
+  &__triangle:nth-child(3){
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid springgreen;
+    top:780px;
+    left:275px;
+    transform: rotate(15deg);
+  }
+
+  &__triangle:nth-child(4) {
+    border-top: 50px solid lightcoral;
+    border-left: 50px solid transparent;
+    border-right: 10px solid transparent;
+    top:705px;
+    left:50px;
+    opacity:0.8;
+  }
+  
+  &__triangle:nth-child(5){
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid darkcyan;
+    transform: rotate(30deg);
+    top:900px;
+    left:245px;
+  }
+  
+  &__triangle:nth-child(6){
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid springgreen;
+    top:130px;
+    left:175px;
+    transform: rotate(15deg);
+  }
+  
+  &__triangle:nth-child(7) {
+    border-top: 50px solid lightcoral;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    top:205px;
+    left:450px;
+    width:285px;
+    height:285px;
+    opacity:0.8;
+  }
+  
+  &__triangle:nth-child(8){
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid darkcyan;
+    transform: rotate(30deg);
+    top:300px;
+    left:45px;
+  }
+  
+  &__triangle:nth-child(9){
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid springgreen;
+    top:10px;
+    left:20px;
+    width:885px;
+    height:885px;
+    transform: rotate(15deg);
+  }
+}
+
+@media(min-width: 1280px) {
+  .shapes{
+    &__triangle {
+      @include triangle;
+    }
+
+    &__triangle:nth-child(1) {
+      border-top: 50px solid lightcoral;
+      border-left: 50px solid transparent;
+      border-right: 10px solid transparent;
+      top:715px;
+      left:1150px;
+      opacity:0.8;
+    }
+    
+    &__triangle:nth-child(2){
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid darkcyan;
+      transform: rotate(30deg);
+      top:1200px;
+      left:245px;
+    }
+    
+    &__triangle:nth-child(3){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid springgreen;
+      top:780px;
+      left:575px;
+      transform: rotate(15deg);
+    }
+  
+    &__triangle:nth-child(4) {
+      border-top: 50px solid lightcoral;
+      border-left: 50px solid transparent;
+      border-right: 10px solid transparent;
+      top:605px;
+      left:750px;
+      opacity:0.8;
+    }
+    
+    &__triangle:nth-child(5){
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 200px solid darkcyan;
+      transform: rotate(30deg);
+      top:550px;
+      left:45px;
+    }
+    
+    &__triangle:nth-child(6){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid springgreen;
+      top:130px;
+      left:1375px;
+      transform: rotate(15deg);
+    }
+    
+    &__triangle:nth-child(7) {
+      border-top: 300px solid lightcoral;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      top:205px;
+      left:250px;
+      opacity:0.8;
+    }
+    
+    &__triangle:nth-child(8){
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid darkcyan;
+      transform: rotate(30deg);
+      top:300px;
+      left:45px;
+    }
+    
+    &__triangle:nth-child(9){
+      border-left: 145px solid transparent;
+      border-right: 145px solid transparent;
+      border-top: 145px solid springgreen;
+      top:740px;
+      left:320px;
+      transform: rotate(95deg);
+    }
+ }
+}
