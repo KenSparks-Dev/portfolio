@@ -1,3 +1,4 @@
+/*SCSS list*/
 body {
   overflow-x: hidden;
 }
@@ -11,7 +12,7 @@ body {
 }
 
 .shapes__triangle:nth-child(1) {
-  border-top: 50px solid lightcoral;
+  border-top: 50px solid #f08080;
   border-left: 50px solid transparent;
   border-right: 10px solid transparent;
   top: 405px;
@@ -22,7 +23,7 @@ body {
 .shapes__triangle:nth-child(2) {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid darkcyan;
+  border-top: 20px solid #008b8b;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
   top: 1200px;
@@ -32,7 +33,7 @@ body {
 .shapes__triangle:nth-child(3) {
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-top: 45px solid springgreen;
+  border-top: 45px solid #00ff7f;
   top: 780px;
   left: 275px;
   -webkit-transform: rotate(15deg);
@@ -40,7 +41,7 @@ body {
 }
 
 .shapes__triangle:nth-child(4) {
-  border-top: 50px solid lightcoral;
+  border-top: 50px solid #f08080;
   border-left: 50px solid transparent;
   border-right: 10px solid transparent;
   top: 705px;
@@ -51,7 +52,7 @@ body {
 .shapes__triangle:nth-child(5) {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid darkcyan;
+  border-top: 20px solid #008b8b;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
   top: 900px;
@@ -61,7 +62,7 @@ body {
 .shapes__triangle:nth-child(6) {
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-top: 45px solid springgreen;
+  border-top: 45px solid #00ff7f;
   top: 130px;
   left: 175px;
   -webkit-transform: rotate(15deg);
@@ -69,7 +70,7 @@ body {
 }
 
 .shapes__triangle:nth-child(7) {
-  border-top: 50px solid lightcoral;
+  border-top: 50px solid #f08080;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   top: 205px;
@@ -82,7 +83,7 @@ body {
 .shapes__triangle:nth-child(8) {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid darkcyan;
+  border-top: 20px solid #008b8b;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
   top: 300px;
@@ -92,7 +93,7 @@ body {
 .shapes__triangle:nth-child(9) {
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-top: 45px solid springgreen;
+  border-top: 45px solid #00ff7f;
   top: 10px;
   left: 20px;
   width: 885px;
@@ -110,7 +111,7 @@ body {
     border-radius: 5px;
   }
   .shapes__triangle:nth-child(1) {
-    border-top: 50px solid lightcoral;
+    border-top: 50px solid #f08080;
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
     top: 715px;
@@ -120,7 +121,7 @@ body {
   .shapes__triangle:nth-child(2) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid darkcyan;
+    border-top: 20px solid #008b8b;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     top: 1200px;
@@ -129,14 +130,14 @@ body {
   .shapes__triangle:nth-child(3) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
-    border-top: 45px solid springgreen;
+    border-top: 45px solid #00ff7f;
     top: 780px;
     left: 575px;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
   .shapes__triangle:nth-child(4) {
-    border-top: 50px solid lightcoral;
+    border-top: 50px solid #f08080;
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
     top: 605px;
@@ -146,7 +147,7 @@ body {
   .shapes__triangle:nth-child(5) {
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 200px solid darkcyan;
+    border-top: 200px solid #008b8b;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     top: 550px;
@@ -155,14 +156,14 @@ body {
   .shapes__triangle:nth-child(6) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
-    border-top: 45px solid springgreen;
+    border-top: 45px solid #00ff7f;
     top: 130px;
     left: 1375px;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
   .shapes__triangle:nth-child(7) {
-    border-top: 300px solid lightcoral;
+    border-top: 300px solid #f08080;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     top: 205px;
@@ -172,7 +173,7 @@ body {
   .shapes__triangle:nth-child(8) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid darkcyan;
+    border-top: 20px solid #008b8b;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     top: 300px;
@@ -181,7 +182,7 @@ body {
   .shapes__triangle:nth-child(9) {
     border-left: 145px solid transparent;
     border-right: 145px solid transparent;
-    border-top: 145px solid springgreen;
+    border-top: 145px solid #00ff7f;
     top: 740px;
     left: 320px;
     -webkit-transform: rotate(95deg);

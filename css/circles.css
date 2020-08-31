@@ -11,7 +11,7 @@ body {
 }
 
 .shapes__circle:nth-child(1) {
-  background-color: lightcoral;
+  background-color: #00ff7f;
   top: 1200px;
   left: 270px;
   width: 95px;
@@ -19,7 +19,7 @@ body {
 }
 
 .shapes__circle:nth-child(2) {
-  background-color: darkcyan;
+  background-color: #f08080;
   top: 715px;
   left: -67px;
   width: 195px;
@@ -28,13 +28,13 @@ body {
 }
 
 .shapes__circle:nth-child(3) {
-  background-color: springgreen;
+  background-color: #008b8b;
   top: 415px;
   left: 197px;
 }
 
 .shapes__circle:nth-child(4) {
-  background-color: lightcoral;
+  background-color: #00ff7f;
   top: 900px;
   left: 970px;
   width: 295px;
@@ -42,14 +42,14 @@ body {
 }
 
 .shapes__circle:nth-child(5) {
-  background-color: darkcyan;
+  background-color: #f08080;
   top: 715px;
   left: 967px;
   opacity: 0.8;
 }
 
 .shapes__circle:nth-child(6) {
-  background-color: springgreen;
+  background-color: #008b8b;
   width: 885px;
   height: 885px;
   top: 1515px;
@@ -57,7 +57,7 @@ body {
 }
 
 .shapes__circle:nth-child(7) {
-  background-color: lightcoral;
+  background-color: #00ff7f;
   top: 300px;
   left: 270px;
   width: 95px;
@@ -65,7 +65,7 @@ body {
 }
 
 .shapes__circle:nth-child(8) {
-  background-color: darkcyan;
+  background-color: #f08080;
   top: 395px;
   left: 1847px;
   opacity: 0.8;
@@ -74,7 +74,7 @@ body {
 }
 
 .shapes__circle:nth-child(9) {
-  background-color: springgreen;
+  background-color: #008b8b;
   top: 15px;
   left: 1197px;
 }
@@ -88,14 +88,14 @@ body {
     border-radius: 50%;
   }
   .shapes__circle:nth-child(1) {
-    background-color: lightcoral;
+    background-color: #00ff7f;
     top: 715px;
     left: 1150px;
     width: 95px;
     height: 95px;
   }
   .shapes__circle:nth-child(2) {
-    background-color: darkcyan;
+    background-color: #f08080;
     top: 1200px;
     left: 245px;
     width: 195px;
@@ -103,49 +103,49 @@ body {
     opacity: 0.8;
   }
   .shapes__circle:nth-child(3) {
-    background-color: springgreen;
+    background-color: #008b8b;
     top: 780px;
     left: 575px;
     width: 295px;
     height: 295px;
   }
   .shapes__circle:nth-child(4) {
-    background-color: lightcoral;
-    top: 900px;
-    left: 470px;
+    background-color: #00ff7f;
+    top:605px;
+    left:750px;
     width: 295px;
     height: 295px;
   }
   .shapes__circle:nth-child(5) {
-    background-color: darkcyan;
-    top: 715px;
-    left: 467px;
+    background-color: #f08080;
+    top:550px;
+    left:45px;
     opacity: 0.8;
   }
   .shapes__circle:nth-child(6) {
-    background-color: springgreen;
+    background-color: #008b8b;
     width: 885px;
     height: 885px;
     top: 1515px;
     left: 797px;
   }
   .shapes__circle:nth-child(7) {
-    background-color: lightcoral;
-    top: 300px;
-    left: 270px;
+    background-color: #00ff7f;
+    top:205px;
+    left:250px;
     width: 95px;
     height: 95px;
   }
   .shapes__circle:nth-child(8) {
-    background-color: darkcyan;
-    top: 515px;
-    left: 1747px;
+    background-color: #f08080;
+    top:300px;
+    left:45px;
     opacity: 0.8;
   }
   .shapes__circle:nth-child(9) {
-    background-color: springgreen;
-    top: 15px;
-    left: 1197px;
+    background-color: #008b8b;
+    top:740px;
+      left:320px;
   }
 }
 /*# sourceMappingURL=circles.css.map */

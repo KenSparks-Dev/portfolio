@@ -12,7 +12,7 @@ body {
 }
 
 .shapes__square:nth-child(1) {
-  background-color: lightcoral;
+  background-color: #008b8b;
   top: 1000px;
   left: 17px;
   width: 155px;
@@ -24,13 +24,13 @@ body {
   left: 17px;
   width: 155px;
   height: 755px;
-  background-color: darkcyan;
+  background-color: #00ff7f;
   -webkit-transform: rotate(50deg);
           transform: rotate(50deg);
 }
 
 .shapes__square:nth-child(3) {
-  background-color: springgreen;
+  background-color: #f08080;
   top: 610px;
   left: 117px;
   -webkit-transform: rotate(30deg);
@@ -41,7 +41,7 @@ body {
 }
 
 .shapes__square:nth-child(4) {
-  background-color: lightcoral;
+  background-color: #008b8b;
   top: 500px;
   left: 1417px;
   width: 155px;
@@ -51,13 +51,13 @@ body {
 }
 
 .shapes__square:nth-child(5) {
-  background-color: darkcyan;
+  background-color: #00ff7f;
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
 }
 
 .shapes__square:nth-child(6) {
-  background-color: springgreen;
+  background-color: #f08080;
   top: 1330px;
   left: 907px;
   -webkit-transform: rotate(30deg);
@@ -68,7 +68,7 @@ body {
 }
 
 .shapes__square:nth-child(7) {
-  background-color: lightcoral;
+  background-color: #008b8b;
   top: 0px;
   left: 617px;
   width: 355px;
@@ -78,13 +78,13 @@ body {
 }
 
 .shapes__square:nth-child(8) {
-  background-color: darkcyan;
+  background-color: #00ff7f;
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
 }
 
 .shapes__square:nth-child(9) {
-  background-color: springgreen;
+  background-color: #f08080;
   top: 1330px;
   left: 907px;
   -webkit-transform: rotate(30deg);
@@ -103,7 +103,7 @@ body {
     border-radius: 5px;
   }
   .shapes__square:nth-child(1) {
-    background-color: lightcoral;
+    background-color: #008b8b;
     top: 715px;
     left: 1150px;
     width: 155px;
@@ -114,12 +114,12 @@ body {
     left: 245px;
     width: 155px;
     height: 755px;
-    background-color: darkcyan;
+    background-color: #00ff7f;
     -webkit-transform: rotate(50deg);
             transform: rotate(50deg);
   }
   .shapes__square:nth-child(3) {
-    background-color: springgreen;
+    background-color: #f08080;
     top: 780px;
     left: 575px;
     -webkit-transform: rotate(30deg);
@@ -129,23 +129,25 @@ body {
     opacity: 0.7;
   }
   .shapes__square:nth-child(4) {
-    background-color: lightcoral;
-    top: 50px;
-    left: 1517px;
+    background-color: #008b8b;
+    top:605px;
+    left:750px;
     width: 200px;
     height: 200px;
     -webkit-transform: rotate(5deg);
             transform: rotate(5deg);
   }
   .shapes__square:nth-child(5) {
-    background-color: darkcyan;
+    background-color: #00ff7f;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
+    top:550px;
+    left:45px;
   }
   .shapes__square:nth-child(6) {
-    background-color: springgreen;
-    top: 330px;
-    left: 1107px;
+    background-color: #f08080;
+    top:130px;
+    left:1375px;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     width: 150px;
@@ -153,25 +155,27 @@ body {
     opacity: 0.7;
   }
   .shapes__square:nth-child(7) {
-    background-color: lightcoral;
-    top: 30px;
-    left: 617px;
+    background-color: #008b8b;
+    top:205px;
+    left:250px;
     width: 55px;
     height: 55px;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
   .shapes__square:nth-child(8) {
-    background-color: darkcyan;
+    background-color: #00ff7f;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
     width: 55px;
     height: 55px;
+    top:300px;
+    left:45px;
   }
   .shapes__square:nth-child(9) {
-    background-color: springgreen;
-    top: 1130px;
-    left: 07px;
+    background-color: #f08080;
+    top:740px;
+    left:320px;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     width: 150px;

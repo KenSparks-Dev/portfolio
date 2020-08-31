@@ -1,5 +1,5 @@
 @import "variables";
-@include $shape-colors;
+@include shape-colors;
 
 @mixin square {
   position: fixed;
@@ -19,26 +19,26 @@ body{
   }
   
   &__square:nth-child(1){
-    background-color:lightcoral;
-    top:1000px;
-    left:17px;
+    background-color:$cyan-shapes;
+    top:405px;
+    left:150px;
     width:155px;
     height:55px;
   }
 
   &__square:nth-child(2){
-    top:1000px;
-    left:17px;
+    top:1200px;
+    left:245px;
     width:155px;
     height:755px;
-    background-color:darkcyan;
+    background-color:$springgreen-shapes;
     transform: rotate(50deg);
   }
 
   &__square:nth-child(3){
-    background-color:springgreen;
-    top:610px;
-    left:117px;
+    background-color:$coral-shapes;
+    top:780px;
+    left:275px;
     transform: rotate(30deg);
     width:1950px;
     height:50px;
@@ -46,7 +46,7 @@ body{
   }
 
   &__square:nth-child(4){
-    background-color:lightcoral;
+    background-color:$cyan-shapes;
     top:500px;
     left:1417px;
     width:155px;
@@ -56,12 +56,12 @@ body{
   }
 
   &__square:nth-child(5){
-    background-color:darkcyan;
+    background-color:$springgreen-shapes;
     transform: rotate(15deg);
   }
 
   &__square:nth-child(6){
-    background-color:springgreen;
+    background-color:$coral-shapes;
     top:1330px;
     left:907px;
     transform: rotate(30deg);
@@ -70,7 +70,7 @@ body{
     opacity:0.7;
   }
   &__square:nth-child(7){
-    background-color:lightcoral;
+    background-color:$cyan-shapes;
     top:0px;
     left:617px;
     width:355px;
@@ -79,12 +79,12 @@ body{
   }
 
   &__square:nth-child(8){
-    background-color:darkcyan;
+    background-color:$springgreen-shapes;
     transform: rotate(15deg);
   }
 
   &__square:nth-child(9){
-    background-color:springgreen;
+    background-color:$coral-shapes;
     top:1330px;
     left:907px;
     transform: rotate(30deg);
@@ -100,7 +100,7 @@ body{
       @include square;
     }
     &__square:nth-child(1){
-      background-color:lightcoral;
+      background-color:$cyan-shapes;
       top:715px;
       left:1150px;
       width:155px;
@@ -112,12 +112,12 @@ body{
       left:245px;
       width:155px;
       height:755px;
-      background-color:darkcyan;
+      background-color:$springgreen-shapes;
       transform: rotate(50deg);
     }
   
     &__square:nth-child(3){
-      background-color:springgreen;
+      background-color:$coral-shapes;
       top:780px;
       left:575px;
       transform: rotate(30deg);
@@ -127,9 +127,9 @@ body{
     }
   
     &__square:nth-child(4){
-      background-color:lightcoral;
-      top:50px;
-      left:1517px;
+      background-color:$cyan-shapes;
+      top:605px;
+      left:750px;
       width:200px;
       height:200px;
       transform: rotate(5deg);
@@ -137,39 +137,43 @@ body{
     }
   
     &__square:nth-child(5){
-      background-color:darkcyan;
+      background-color:$springgreen-shapes;
       transform: rotate(15deg);
+      top:550px;
+      left:45px;
     }
   
     &__square:nth-child(6){
-      background-color:springgreen;
-      top:330px;
-      left:1107px;
+      background-color:$coral-shapesn;
+      top:130px;
+      left:1375px;
       transform: rotate(30deg);
       width:150px;
       height:150px;
       opacity:0.7;
     }
     &__square:nth-child(7){
-      background-color:lightcoral;
-      top:30px;
-      left:617px;
+      background-color:$cyan-shapes;
+      top:205px;
+      left:250px;
       width:55px;
       height:55px;
       transform: rotate(15deg);
     }
   
     &__square:nth-child(8){
-      background-color:darkcyan;
+      background-color:$springgreen-shapes;
       transform: rotate(15deg);
       width:55px;
       height:55px;
+      top:300px;
+      left:45px;
     }
   
     &__square:nth-child(9){
-      background-color:springgreen;
-      top:1130px;
-      left:07px;
+      background-color:$coral-shapes;
+      top:740px;
+      left:320px;
       transform: rotate(30deg);
       width:150px;
       height:150px;
