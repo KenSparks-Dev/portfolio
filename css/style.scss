@@ -4,6 +4,9 @@ $client-font: 'Permanent Marker', cursive;
 
 @import "mixins";
 @import "variables";
+@import "squares";
+@import "triangles";
+@import "circles";
 
 .project{
   @include project-styles;
