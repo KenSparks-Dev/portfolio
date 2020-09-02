@@ -22,8 +22,8 @@ body{
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
-    top:405px;
-    left:150px;
+    top:305px;
+    left:30px;
   }
   
   &__triangle:nth-child(2){
@@ -49,7 +49,7 @@ body{
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
     top:75px;
-    left:50px;
+    left:350px;
     
   }
   
@@ -58,16 +58,16 @@ body{
     border-right: 20px solid transparent;
     border-top: 20px solid $cyan-shapes;
     transform: rotate(30deg);
-    top:900px;
-    left:245px;
+    top:34px;
+    left:145px;
   }
   
   &__triangle:nth-child(6){
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     border-top: 45px solid $springgreen-shapes;
-    top:330px;
-    left:175px;
+    top:630px;
+    left:125px;
     transform: rotate(15deg);
   }
   
@@ -84,7 +84,7 @@ body{
     border-right: 20px solid transparent;
     border-top: 20px solid $cyan-shapes;
     transform: rotate(30deg);
-    top:300px;
+    top:600px;
     left:45px;
   }
   
@@ -93,12 +93,12 @@ body{
     border-right: 45px solid transparent;
     border-top: 45px solid $springgreen-shapes;
     top:10px;
-    left:20px;
+    left:220px;
     transform: rotate(15deg);
   }
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 768px) {
   .shapes{
     &__triangle {
       @include triangle;
@@ -108,8 +108,8 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:715px;
-      left:1250px;
+      top:505px;
+      left:680px;
       
     }
     
@@ -126,7 +126,7 @@ body{
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:180px;
+      top:280px;
       left:975px;
       transform: rotate(15deg);
     }
@@ -135,8 +135,8 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 10px solid transparent;
-      top:345px;
-      left:350px;
+      top:205px;
+      left:890px;
       
     }
     
@@ -145,8 +145,184 @@ body{
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:120px;
-      left:450px;
+      top:150px;
+      left:-100px;
+    }
+    
+    &__triangle:nth-child(6){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:680px;
+      left:1075px;
+      transform: rotate(15deg);
+    }
+
+    &__triangle:nth-child(7) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      top:305px;
+      left:950px;
+      
+    }
+    
+    &__triangle:nth-child(8){
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:777px;
+      left:45px;
+    }
+    
+    &__triangle:nth-child(9){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:340px;
+      left:1120px;
+    }
+ }
+}
+
+@media (min-width: 1024px) {
+  .shapes{
+    &__triangle {
+      @include triangle;
+    }
+
+    &__triangle:nth-child(1) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      top:1105px;
+      left:680px;
+      
+    }
+    
+    &__triangle:nth-child(2){
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 70px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:1250px;
+      left:5px;
+    }
+    
+    &__triangle:nth-child(3){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:680px;
+      left:975px;
+      transform: rotate(15deg);
+    }
+  
+    &__triangle:nth-child(4) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 10px solid transparent;
+      top:775px;
+      left:890px;
+      
+    }
+    
+    &__triangle:nth-child(5){
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 150px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:930px;
+      left:250px;
+    }
+    
+    &__triangle:nth-child(6){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:980px;
+      left:575px;
+      transform: rotate(15deg);
+    }
+
+    &__triangle:nth-child(7) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      top:1005px;
+      left:90px;
+      
+    }
+    
+    &__triangle:nth-child(8){
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-top: 40px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:777px;
+      left:445px;
+    }
+    
+    &__triangle:nth-child(9){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:590px;
+      left:720px;
+    }
+ }
+}
+
+@media (min-width: 1200px) {
+  .shapes{
+    &__triangle {
+      @include triangle;
+    }
+
+    &__triangle:nth-child(1) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      top:505px;
+      left:680px;
+      
+    }
+    
+    &__triangle:nth-child(2){
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:300px;
+      left:145px;
+    }
+    
+    &__triangle:nth-child(3){
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 45px solid $springgreen-shapes;
+      top:280px;
+      left:975px;
+      transform: rotate(15deg);
+    }
+  
+    &__triangle:nth-child(4) {
+      border-top: 50px solid $coral-shapes;
+      border-left: 50px solid transparent;
+      border-right: 10px solid transparent;
+      top:205px;
+      left:890px;
+      
+    }
+    
+    &__triangle:nth-child(5){
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 150px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:150px;
+      left:-100px;
     }
     
     &__triangle:nth-child(6){

@@ -15,16 +15,16 @@ body {
 .shapes__square:nth-child(1) {
   background-color: #008b8b;
   top: 405px;
-  left: 150px;
-  width: 155px;
+  left: 340px;
+  width: 55px;
   height: 55px;
 }
 
 .shapes__square:nth-child(2) {
-  top: 1200px;
-  left: 245px;
-  width: 155px;
-  height: 755px;
+  top: 120px;
+  left: 45px;
+  width: 55px;
+  height: 55px;
   background-color: #00ff7f;
   -webkit-transform: rotate(50deg);
           transform: rotate(50deg);
@@ -42,10 +42,10 @@ body {
 
 .shapes__square:nth-child(4) {
   background-color: #008b8b;
-  top: 500px;
-  left: 1417px;
-  width: 155px;
-  height: 155px;
+  top: 200px;
+  left: 117px;
+  width: 120px;
+  height: 120px;
   -webkit-transform: rotate(55deg);
           transform: rotate(55deg);
 }
@@ -58,20 +58,20 @@ body {
 
 .shapes__square:nth-child(6) {
   background-color: #f08080;
-  top: 1330px;
-  left: 907px;
+  top: 490px;
+  left: 300px;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 
 .shapes__square:nth-child(7) {
   background-color: #008b8b;
-  top: 0px;
-  left: 617px;
-  width: 355px;
-  height: 355px;
+  top: 150px;
+  left: 317px;
+  width: 45px;
+  height: 45px;
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
 }
@@ -84,7 +84,7 @@ body {
 
 .shapes__square:nth-child(9) {
   background-color: #f08080;
-  top: 1330px;
+  top: 1230px;
   left: 907px;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
@@ -92,7 +92,183 @@ body {
   height: 150px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
+  .shapes__square {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  .shapes__square:nth-child(1) {
+    background-color: #008b8b;
+    top: 900px;
+    left: 450px;
+    width: 55px;
+    height: 55px;
+  }
+  .shapes__square:nth-child(2) {
+    top: 300px;
+    left: 745px;
+    width: 155px;
+    height: 155px;
+    background-color: #00ff7f;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  .shapes__square:nth-child(3) {
+    background-color: #f08080;
+    top: 580px;
+    left: 475px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 50px;
+    height: 50px;
+  }
+  .shapes__square:nth-child(4) {
+    background-color: #008b8b;
+    top: 495px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  .shapes__square:nth-child(5) {
+    background-color: #00ff7f;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    top: 950px;
+    left: 1345px;
+  }
+  .shapes__square:nth-child(6) {
+    background-color: #f08080;
+    top: 430px;
+    left: 1375px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+  }
+  .shapes__square:nth-child(7) {
+    background-color: #008b8b;
+    top: 705px;
+    left: 450px;
+    width: 155px;
+    height: 155px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  .shapes__square:nth-child(8) {
+    background-color: #00ff7f;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    width: 55px;
+    height: 55px;
+    top: 350px;
+    left: 245px;
+  }
+  .shapes__square:nth-child(9) {
+    background-color: #f08080;
+    top: 540px;
+    left: 320px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .shapes__square {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  .shapes__square:nth-child(1) {
+    background-color: #008b8b;
+    top: 1155px;
+    left: 990px;
+    width: 155px;
+    height: 55px;
+  }
+  .shapes__square:nth-child(2) {
+    width: 75px;
+    height: 75px;
+    background-color: #00ff7f;
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+    top: 1250px;
+    left: 500px;
+  }
+  .shapes__square:nth-child(3) {
+    background-color: #f08080;
+    top: 800px;
+    left: -15px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+  }
+  .shapes__square:nth-child(4) {
+    background-color: #008b8b;
+    top: 585px;
+    left: 350px;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  .shapes__square:nth-child(5) {
+    background-color: #00ff7f;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    top: 940px;
+    left: 845px;
+  }
+  .shapes__square:nth-child(6) {
+    background-color: #f08080;
+    top: 1030px;
+    left: 335px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+  }
+  .shapes__square:nth-child(7) {
+    background-color: #008b8b;
+    top: 1055px;
+    left: 800px;
+    width: 155px;
+    height: 155px;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  .shapes__square:nth-child(8) {
+    background-color: #00ff7f;
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    width: 55px;
+    height: 55px;
+    top: 1100px;
+    left: 45px;
+  }
+  .shapes__square:nth-child(9) {
+    background-color: #f08080;
+    top: 540px;
+    left: 1320px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
   .shapes__square {
     position: fixed;
     height: 50px;
@@ -119,8 +295,8 @@ body {
   }
   .shapes__square:nth-child(3) {
     background-color: #f08080;
-    top: 380px;
-    left: 175px;
+    top: 580px;
+    left: 475px;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
     width: 50px;
@@ -128,7 +304,7 @@ body {
   }
   .shapes__square:nth-child(4) {
     background-color: #008b8b;
-    top: 305px;
+    top: 605px;
     left: 1550px;
     width: 200px;
     height: 200px;
@@ -139,12 +315,12 @@ body {
     background-color: #00ff7f;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
-    top: 350px;
+    top: 950px;
     left: 1345px;
   }
   .shapes__square:nth-child(6) {
     background-color: #f08080;
-    top: 30px;
+    top: 430px;
     left: 1375px;
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
@@ -155,8 +331,8 @@ body {
     background-color: #008b8b;
     top: 705px;
     left: 450px;
-    width: 55px;
-    height: 55px;
+    width: 155px;
+    height: 155px;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
