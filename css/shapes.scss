@@ -1,0 +1,109 @@
+@mixin triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+@mixin square {
+  position: absolute;
+  height: 100px;
+  width:100px;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+@mixin circle {
+  position: absolute;
+  height: 150px;
+  width:150px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.shapes{
+  &__triangle{
+    @include triangle;
+  }
+
+  &__triangle:nth-child(1){
+    border-top: 400px solid lightcoral;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    top:770px;
+    left:17px;
+  }
+
+  &__triangle:nth-child(2){
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid darkcyan;
+    transform: rotate(30deg);
+    top:1245px;
+    left:270px;
+  }
+  
+  &__triangle:nth-child(3){
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    display: none;
+    border-top: 20px solid springgreen;
+    transform: rotate(15deg);
+  }
+
+//Square
+
+  &__square{
+    @include square;
+  }
+
+  &__square:nth-child(1){
+    display:none;
+    background-color:lightcoral;
+    top:710px;
+    left:187px;
+    transform: rotate(55deg);
+  }
+
+  &__square:nth-child(2){
+    display: none;
+    background-color:darkcyan;
+    transform: rotate(15deg);
+  }
+
+  &__square:nth-child(3){
+    background-color:springgreen;
+    transform: rotate(30deg);
+  }
+
+
+//circle
+
+  &__circle{
+    @include circle;
+  }
+
+  &__circle:nth-child(1){
+    display: none;
+    background-color:lightcoral;
+    top:1115px;
+    left:197px;
+  }
+
+  &__circle:nth-child(2){
+    background-color:darkcyan;
+    top:1100px;
+    right:270px;
+  }
+
+  &__circle:nth-child(3){
+    display: none;
+    background-color:springgreen;
+  }
+}
