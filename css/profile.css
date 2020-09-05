@@ -153,6 +153,7 @@ body {
   .footer__link {
     background-color: #375397;
     border-radius: 10px;
+    width: 300px;
     padding: 4px;
     font-size: 25px;
     font-weight: 600;
