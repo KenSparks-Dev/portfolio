@@ -1,5 +1,7 @@
 /*SCSS list*/
-
+$cyan-shapes:#008b8b;
+$coral-shapes:#f08080;
+$springgreen-shapes:#00ff7f;
 
 $project-one-bg-color:#cf3b49;
 $project-one-font:'Montserrat', sans-serif;
@@ -22,7 +24,10 @@ $project-five-font:'Karla', sans-serif;
 $project-five-font-colors:#fff;
 
 
-
+$shape-colors:
+$coral-shapes,
+$cyan-shapes,
+$springgreen-shapes;
 
 
 $bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color;
@@ -30,3 +35,6 @@ $bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-colo
 $fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font;
 
 $font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors,
+
+
+

@@ -72,22 +72,25 @@ body {
 
 @media (min-width: 768px) {
   .landing-page {
-    height: 470px;
-    background-position-y: -200px;
+    height: 580px;
+    background-position-y: -50px;
+    margin: 0 auto;
+    margin: 15px;
   }
   .landing-page__li a {
     font-size: 30px;
     padding: 18px;
   }
   .landing-page__text {
-    padding-top: 200px;
+    padding-top: 350px;
     text-shadow: 4px 2px black;
   }
   .landing-page__text__title {
     font-size: 4.5em;
     text-shadow: 6px 4px black;
+    padding-bottom: 20px;
   }
-  .landing-page_text__subtitle {
+  .landing-page__text__subtitle {
     font-size: 1.6em;
     text-shadow: 2px 5px black;
   }
@@ -95,27 +98,32 @@ body {
 
 @media (min-width: 1024px) {
   .landing-page {
-    height: 570px;
-    background-position-y: -290px;
+    height: 750px;
+    background-position-y: -90px;
+    margin: 0 auto;
+    margin: 15px;
   }
   .landing-page__text {
-    padding-top: 300px;
+    padding-top: 500px;
     text-shadow: 4px 2px black;
   }
   .landing-page__text__title {
-    font-size: 4.5em;
+    font-size: 5em;
     text-shadow: 6px 4px black;
+    padding-bottom: 20px;
   }
-  .landing-page_text__subtitle {
-    font-size: 1.5em;
+  .landing-page__text__subtitle {
+    font-size: 2em;
     text-shadow: 2px 5px black;
   }
 }
 
 @media (min-width: 1280px) {
   .landing-page {
-    height: 100vh;
-    background-position-y: -380px;
+    background-position-y: -90px;
+    height: 700px;
+    margin: auto;
+    margin: 15px;
   }
   .landing-page__li a {
     font-size: 40px;
@@ -128,8 +136,9 @@ body {
   .landing-page__text__title {
     font-size: 6.5em;
     text-shadow: 6px 4px black;
+    padding-bottom: 20px;
   }
-  .landing-page_text__subtitle {
+  .landing-page__text__subtitle {
     font-size: 1.65em;
     text-shadow: 2px 5px black;
   }
@@ -137,20 +146,23 @@ body {
 
 @media (min-width: 1440px) {
   .landing-page {
+    background-position-y: -190px;
     height: 100vh;
-    background-position-y: -380px;
+    margin: 0px;
+    width: 100%;
   }
   .landing-page__text {
-    padding-top: 590px;
+    padding-top: 690px;
     text-shadow: 4px 2px black;
   }
   .landing-page__text__title {
     font-size: 7.5em;
     text-shadow: 6px 4px black;
+    padding-bottom: 60px;
   }
-  .landing-page_text__subtitle {
-    font-size: 2.0em;
+  .landing-page__text__subtitle {
+    font-size: 3.5em;
     text-shadow: 2px 5px black;
   }
 }
-/*# sourceMappingURL=landing-page.css.map */
+/*# sourceMappingURL=home-landing-page.css.map */

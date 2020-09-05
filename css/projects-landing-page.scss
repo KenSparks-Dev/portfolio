@@ -14,10 +14,11 @@ body  {
 .landing-page {
   display: flex;
   background: $lp-bg-color;
-  background-image:  url(../images/me3.jpg);
+  background-image:  url(../images/me2.jpg);
   background-repeat:  no-repeat;
   background-size:  cover;
-  height: 400px;
+  background-position: center;
+  height:100%;
   color: $lp-title-color;
   flex-direction: column;
 
@@ -41,13 +42,12 @@ body  {
   &__text   {
     margin: auto;
     font-family:  $marker-font;
-    padding-top: 260px;
-    line-height: 35px;
+    padding-top: 230px;
   }
 
   &__text__title  {
     font-size: 3em;
-    text-shadow:  4px 2px black;
+    text-shadow: 4px 2px black;
   }
 
   &__text__subtitle  {
@@ -67,8 +67,8 @@ body  {
 
 @media(min-width:  768px)  {
   .landing-page {
-    height:470px;
-    background-position-y: -200px;
+    height:580px;
+    background-position-y: -50px;
 
     &__li a{
       font-size:30px;
@@ -76,16 +76,17 @@ body  {
     }
 
     &__text {
-      padding-top: 200px;
+      padding-top: 350px;
       text-shadow:  4px 2px black;
     }
 
     &__text__title  {
       font-size: 4.5em;
       text-shadow:  6px 4px black;
+      padding-bottom:20px
 
     }
-    &_text__subtitle  {
+    &__text__subtitle  {
       font-size: 1.6em;
       text-shadow:  2px 5px black;
     }
@@ -94,22 +95,22 @@ body  {
 
 @media(min-width:  1024px) {
   .landing-page {
-    height:570px;
-    background-position-y:  -290px;
+    height:750px;
+    background-position-y: -90px;
 
 
     &__text {
-      padding-top: 300px;
+      padding-top: 500px;
       text-shadow:  4px 2px black;
     }
 
     &__text__title  {
-      font-size: 4.5em;
+      font-size: 5em;
       text-shadow:  6px 4px black;
-
+      padding-bottom:20px;
     }
-    &_text__subtitle  {
-      font-size: 1.5em;
+    &__text__subtitle  {
+      font-size: 2em;
       text-shadow:  2px 5px black;
     }
   }
@@ -117,8 +118,8 @@ body  {
 
 @media(min-width:  1280px) {
   .landing-page {
-    height: 100vh;
-    background-position-y:  -380px;
+    background-position-y: -90px;
+    height:700px;
 
     &__li a{
       font-size:40px;
@@ -133,9 +134,11 @@ body  {
     &__text__title  {
       font-size: 6.5em;
       text-shadow:  6px 4px black;
+      padding-bottom:20px;
+
 
     }
-    &_text__subtitle  {
+    &__text__subtitle  {
       font-size: 1.65em;
       text-shadow:  2px 5px black;
     }
@@ -144,21 +147,22 @@ body  {
 
 @media(min-width:  1440px) {
   .landing-page {
-    height: 100vh;
-    background-position-y:  -380px;
+    background-position-y: -190px;
+    height:100vh;
 
     &__text {
-      padding-top: 590px;
+      padding-top: 690px;
       text-shadow:  4px 2px black;
     }
 
     &__text__title  {
       font-size: 7.5em;
       text-shadow:  6px 4px black;
+      padding-bottom:60px;
 
     }
-    &_text__subtitle  {
-      font-size: 2.0em;
+    &__text__subtitle  {
+      font-size: 3.5em;
       text-shadow:  2px 5px black;
     }
   }
