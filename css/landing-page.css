@@ -38,15 +38,17 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
-  padding: 15px;
+  padding: 10px;
   font-family: "Permanent Marker", cursive;
   cursor: pointer;
+  text-shadow: 4px 2px black;
 }
 
 .landing-page__text {
   margin: auto;
   font-family: "Permanent Marker", cursive;
-  padding-top: 200px;
+  padding-top: 260px;
+  line-height: 35px;
 }
 
 .landing-page__text__title {
@@ -54,12 +56,9 @@ body {
   text-shadow: 4px 2px black;
 }
 
-.landing-page__contact {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: absolute;
+.landing-page__text__subtitle {
+  font-size: 1em;
+  text-shadow: 3px 2px black;
 }
 
 .landing-page__text__resume-link {
