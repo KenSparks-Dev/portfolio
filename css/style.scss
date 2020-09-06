@@ -5,6 +5,9 @@ $client-font: 'Permanent Marker', cursive;
 @import "mixins";
 @import "variables";
 
+.project-hub{
+  @include project-hub-styles;
+}
 .project{
   @include project-styles;
 }
