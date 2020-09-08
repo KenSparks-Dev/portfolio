@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AA4EA,MAAM,EAAC,SAAS,EAAE,MAAM;EAErB,AAAD,KAAM,CAAC;IACL,IAAI,EAAC,CAAC;IACN,UAAU,EAAC,IAAI;GAChB;EAEA,AAAD,KAAM,CAAC,CAAC,CAAC,GAAG,CAAC;IACX,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;GACd;EAEA,AAAD,MAAO,CAAA;IACL,UAAU,EAAC,IAAI;IACf,SAAS,EAAC,IAAI;IACd,aAAa,EAAC,IAAI;GAEnB",
+    "mappings": "ACAA,aAAa",
     "sources": [
-        "mixins.scss"
+        "mixins.scss",
+        "variables.scss"
     ],
     "names": [],
     "file": "mixins.css"

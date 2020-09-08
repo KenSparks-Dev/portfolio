@@ -1,21 +1,4 @@
-@media (min-width: 1280px) {
-  __img {
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
-    margin-top: 30px;
-  }
-  __img a img {
-    width: 440px;
-    height: 340px;
-  }
-  __text {
-    margin-top: 80px;
-    font-size: 40px;
-    padding-right: 40px;
-  }
-}
-
+/*SCSS list*/
 /*SCSS list*/
 .project-hub {
   display: -webkit-box;
@@ -80,6 +63,27 @@
   list-style: none;
 }
 
+.project__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.project__footer a {
+  background-color: #375397;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .project {
     -webkit-box-orient: vertical;
@@ -126,6 +130,24 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .project__img {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-top: 30px;
+  }
+  .project__img a img {
+    width: 440px;
+    height: 340px;
+  }
+  .project__text {
+    margin-top: 80px;
+    font-size: 40px;
+    padding-right: 40px;
+  }
+}
+
 .project:nth-child(1) {
   background-color: #cf3b49;
   font-family: "Montserrat", sans-serif;
@@ -153,6 +175,12 @@
 .project:nth-child(5) {
   background-color: #31B2AF;
   font-family: "Karla", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(6) {
+  background-color: #FD714F;
+  font-family: "Work Sans", sans-serif;
   color: #fff;
 }
 

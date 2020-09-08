@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin project-styles{
   display:flex;
   flex-direction: column;
@@ -26,6 +28,25 @@
 
   &__skills-list{
     list-style: none;
+  }
+
+  &__footer{
+  display:flex;
+  margin: auto;
+  }
+
+  &__footer a {
+    background-color:$text-field-bg;
+    border-radius: 10px;
+    padding:4px;
+    font-size:22px;
+    font-weight:600;
+    color:$link-color;
+    list-style:none;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
   }
 
  @media(min-width: 768px){
@@ -70,8 +91,6 @@
       margin-top:5px;
       font-size:40px;
     }
-
-    }
   }
 
 @media(min-width: 1280px){
@@ -93,10 +112,7 @@
 
   }
 }
-
-
-
-
+}
 
 @mixin project-hub-styles{
   display:flex;
