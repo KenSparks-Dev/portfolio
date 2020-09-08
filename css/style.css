@@ -101,7 +101,7 @@
     height: 240px;
   }
   .project__text {
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 16px;
     padding-left: 15px;
   }
@@ -125,7 +125,7 @@
     height: 340px;
   }
   .project__text {
-    margin-top: 5px;
+    padding-top: 5px;
     font-size: 40px;
   }
 }
@@ -142,7 +142,7 @@
     height: 340px;
   }
   .project__text {
-    margin-top: 80px;
+    padding-top: 10px;
     font-size: 40px;
     padding-right: 40px;
   }
