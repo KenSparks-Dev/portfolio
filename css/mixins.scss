@@ -22,10 +22,6 @@
     padding-top:15px;
   }
 
-  p{
-    display:none;
-  }
-
   &__skills-list{
     list-style: none;
   }
@@ -64,7 +60,7 @@
     }
 
     &__text{
-      padding-top:10px;
+      padding-top:15px;
       font-size:16px;
       padding-left:15px;
 
@@ -86,17 +82,22 @@
       width: 440px;
       height: 340px;
     }
+    &__title{
+      font-size:44px;
+    }
 
     &__text{
-      padding-top:5px;
+      padding-top:15px;
       font-size:40px;
+    }
+    &__skills-list{
+      font-size:24px;
     }
   }
 
 @media(min-width: 1280px){
 
   &__img {
-    flex:2;
     margin-top:30px;
   }
 
@@ -106,10 +107,12 @@
   }
 
   &__text{
-    padding-top:10px;
     font-size:40px;
     padding-right:40px;
+  }
 
+  &__skills-list{
+    font-size:30px;
   }
 }
 }
