@@ -23,6 +23,16 @@ $project-five-bg-color:#31B2AF;
 $project-five-font:'Karla', sans-serif;
 $project-five-font-colors:#fff;
 
+$project-five-bg-color:#31B2AF;
+$project-five-font:'Karla', sans-serif;
+$project-five-font-colors:#fff;
+
+$project-footer-bg-color:#FD714F;
+$project-footer-font:'Work Sans', sans-serif;
+$project-footer-font-colors:#fff;
+
+$text-field-bg:#375397;
+$link-color:#fff;
 
 $shape-colors:
 $coral-shapes,
@@ -30,11 +40,11 @@ $cyan-shapes,
 $springgreen-shapes;
 
 
-$bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color;
+$bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color, $project-five-bg-color, $project-footer-bg-color;
 
-$fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font;
+$fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font, $project-footer-font;
 
-$font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors,
+$font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors, $project-five-font-colors,$project-footer-font-colors;
 
 
 
