@@ -36,7 +36,7 @@
     background-color:$text-field-bg;
     border-radius: 10px;
     padding:4px;
-    font-size:22px;
+    font-size:24px;
     font-weight:600;
     color:$link-color;
     list-style:none;
@@ -68,6 +68,10 @@
       font-size:12px;
     }
   }
+
+  &__footer a {
+    font-size:26px;
+  }
  }
 
   @media(min-width: 1024px){
@@ -89,6 +93,9 @@
     }
     &__skills-list{
       font-size:24px;
+    }
+    &__footer a {
+      font-size:32px;
     }
   }
 
