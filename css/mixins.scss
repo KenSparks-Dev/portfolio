@@ -3,7 +3,6 @@
 @mixin project-styles{
   display:flex;
   flex-direction: column;
-  height: 375px;
 
   &__img{
     padding-top: 20px
@@ -19,7 +18,7 @@
 
   &__text{
     text-align: center;
-    padding-top:15px;
+    padding:20px 0px;
   }
 
   &__skills-list{
@@ -29,6 +28,8 @@
   &__footer{
   display:flex;
   margin: auto;
+  padding:20px 0px;
+
   }
 
   &__footer a {
@@ -47,7 +48,6 @@
 
  @media(min-width: 768px){
     flex-direction:column;
-    height:400px;
     width:50%;
 
     &__img {
@@ -60,7 +60,6 @@
     }
 
     &__text{
-      padding-top:15px;
       font-size:16px;
       padding-left:15px;
 
@@ -72,7 +71,6 @@
  }
 
   @media(min-width: 1024px){
-    height:600px;
 
     &__img {
       margin-top:10px;
@@ -87,7 +85,6 @@
     }
 
     &__text{
-      padding-top:15px;
       font-size:40px;
     }
     &__skills-list{
