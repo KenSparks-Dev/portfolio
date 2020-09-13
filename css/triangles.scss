@@ -281,11 +281,11 @@ body{
     }
 
     &__triangle:nth-child(1) {
-      border-top: 50px solid $coral-shapes;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      top:505px;
-      left:680px;
+      border-top: 150px solid $coral-shapes;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      top:55px;
+      left:980px;
       
     }
     
@@ -299,20 +299,20 @@ body{
     }
     
     &__triangle:nth-child(3){
-      border-left: 45px solid transparent;
-      border-right: 45px solid transparent;
-      border-top: 45px solid $springgreen-shapes;
-      top:280px;
-      left:975px;
+      border-left: 95px solid transparent;
+      border-right: 95px solid transparent;
+      border-top: 95px solid $springgreen-shapes;
+      top:420px;
+      left:945px;
       transform: rotate(15deg);
     }
   
     &__triangle:nth-child(4) {
-      border-top: 50px solid $coral-shapes;
-      border-left: 50px solid transparent;
+      border-top: 190px solid $coral-shapes;
+      border-left: 190px solid transparent;
       border-right: 10px solid transparent;
-      top:205px;
-      left:890px;
+      top:425px;
+      left:370px;
       
     }
     
@@ -322,15 +322,15 @@ body{
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
       top:150px;
-      left:-100px;
+      left:100px;
     }
     
     &__triangle:nth-child(6){
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:680px;
-      left:1075px;
+      top:20px;
+      left:125px;
       transform: rotate(15deg);
     }
 
@@ -344,12 +344,12 @@ body{
     }
     
     &__triangle:nth-child(8){
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-top: 20px solid $cyan-shapes;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-top: 40px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:777px;
-      left:45px;
+      top:140px;
+      left:345px;
     }
     
     &__triangle:nth-child(9){
@@ -358,6 +358,94 @@ body{
       border-top: 45px solid $springgreen-shapes;
       top:340px;
       left:1120px;
+    }
+ }
+}
+
+@media (min-width: 1400px) {
+  .shapes{
+    &__triangle {
+      @include triangle;
+    }
+
+    &__triangle:nth-child(1) {
+      border-top: 150px solid $coral-shapes;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      top:355px;
+      left:380px;
+      
+    }
+    
+    &__triangle:nth-child(2){
+      border-left: 130px solid transparent;
+      border-right: 130px solid transparent;
+      border-top: 130px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:900px;
+      left:1345px;
+    }
+    
+    &__triangle:nth-child(3){
+      border-left: 145px solid transparent;
+      border-right: 145px solid transparent;
+      border-top: 145px solid $springgreen-shapes;
+      top:800px;
+      left:775px;
+      transform: rotate(15deg);
+    }
+  
+    &__triangle:nth-child(4) {
+      border-top: 150px solid $coral-shapes;
+      border-left: 150px solid transparent;
+      border-right: 10px solid transparent;
+      top:705px;
+      left:1090px;
+      
+    }
+    
+    &__triangle:nth-child(5){
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 150px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:850px;
+      left:100px;
+    }
+    
+    &__triangle:nth-child(6){
+      border-left: 130px solid transparent;
+      border-right: 130px solid transparent;
+      border-top: 130px solid $springgreen-shapes;
+      top:980px;
+      left:75px;
+      transform: rotate(15deg);
+    }
+
+    &__triangle:nth-child(7) {
+      border-top: 100px solid $coral-shapes;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      top:605px;
+      left:0px;
+      
+    }
+    
+    &__triangle:nth-child(8){
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 150px solid $cyan-shapes;
+      transform: rotate(30deg);
+      top:477px;
+      left:645px;
+    }
+    
+    &__triangle:nth-child(9){
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 150px solid $springgreen-shapes;
+      top:840px;
+      left:1620px;
     }
  }
 }
