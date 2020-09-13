@@ -1,14 +1,14 @@
 @import "variables";
 
-@mixin project-styles{
-  display:flex;
-  flex-direction: column;
+@mixin project-styles {
+  display: flex;
+  flex-direction:  column;
 
-  &__img{
+  &__img {
     padding-top: 20px
   }
 
-  &__img a img{
+  &__img a img {
     width: 310px;
     height: 210px;
     border-radius: 20px;
@@ -16,31 +16,31 @@
     margin: auto;
   }
 
-  &__text{
+  &__text {
     text-align: center;
     padding:20px 0px;
   }
 
-  &__skills-list{
+  &__skills-list {
     list-style: none;
   }
 
-  &__footer{
+  &__footer {
   display:flex;
   margin: auto;
   padding:20px 0px;
   flex-direction: column;
   }
 
-  &__footer__btn-group{
+  &__footer__btn-group {
     margin:auto;
     padding-bottom:10px;
   }
-  &__footer__btn-group a{
+  &__footer__btn-group a {
     padding:10px;
   }
 
-  &__btn-group__footer-title{
+  &__btn-group__footer-title {
     font-size:24px;
     text-align:center;
     background-color:$text-field-bg;
@@ -50,7 +50,7 @@
     margin-bottom:10px;
   }
 
- @media(min-width: 768px){
+ @media(min-width: 768px) {
     flex-direction:column;
     width:50%;
 
@@ -63,11 +63,11 @@
       height: 240px;
     }
 
-    &__text{
+    &__text {
       font-size:16px;
       padding-left:15px;
 
-    &__skills-list{
+    &__skills-list {
       display:flex;
       font-size:12px;
     }
@@ -78,7 +78,7 @@
   }
  }
 
-  @media(min-width: 1024px){
+  @media(min-width: 1024px) {
 
     &__img {
       margin-top:10px;
@@ -88,42 +88,48 @@
       width: 440px;
       height: 340px;
     }
-    &__title{
-      font-size:44px;
+    
+    &__title {
+      font-size: 44px;
     }
 
-    &__text{
-      font-size:40px;
+    &__text {
+      font-size: 40px;
     }
-    &__skills-list{
-      font-size:24px;
+
+    &__skills-list {
+      font-size: 24px;
     }
+
     &__footer a {
-      font-size:32px;
-    }
-    &__footer__btn-group{
-      padding-top:20px;
-      margin:auto;
-      margin-bottom:20px;
-    }
-    &__footer__btn-group a{
-      padding:25px;
+      font-size: 32px;
     }
 
-    &__footer__btn-group a img{
-      width:96px
+    &__footer__btn-group {
+      padding-top: 20px;
+      margin: auto;
+      margin-bottom: 20px;
     }
-  
-    &__btn-group__footer-title{
-      font-size:42px;
-      margin-bottom:20px;
+
+    &__footer__btn-group a {
+      padding: 25px;
+    }
+
+
+    &__footer__btn-group a img {
+      width: 96px
+    }
+
+    &__btn-group__footer-title {
+      font-size: 42px;
+      margin-bottom: 20px;
     }
   }
 
-@media(min-width: 1280px){
+@media(min-width: 1280px) {
 
   &__img {
-    margin-top:30px;
+    margin-top: 30px;
   }
 
   &__img a img {
@@ -131,28 +137,27 @@
     height: 340px;
   }
 
-  &__text{
-    font-size:40px;
-    padding-right:40px;
+  &__text {
+    font-size: 40px;
+    padding-right: 40px;
   }
 
-  &__skills-list{
-    font-size:30px;
+  &__skills-list {
+    font-size: 30px;
   }
 }
 }
 
-@mixin project-hub-styles{
-  display:flex;
+@mixin project-hub-styles {
+  display: flex;
   flex-direction: column;
 
-  .projects{
-    flex:1;
+  .projects {
+    flex: 1;
   }
 
-  @media(min-width: 768px){
-    flex-direction:row;
+  @media(min-width: 768px) {
+    flex-direction: row;
     flex-wrap: wrap;
-
   }
 }

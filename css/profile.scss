@@ -1,217 +1,221 @@
-$profile-font: 'Work Sans', sans-serif;
-$background-color:#F5F5F5;
-$text-field-bg:#375397;
-$font-color:#fff;
-$title-color:#2a3132;
-$pill-color:#3f681c;
+$profile-font:  'Work Sans', sans-serif;
+$background-color: #F5F5F5;
+$text-field-bg: #375397;
+$font-color: #fff;
+$title-color: #2a3132;
+$pill-color: #3f681c;
 
-*{
-  margin:0;
-  padding:0
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  background-color:$background-color
+body {
+  background-color:  $background-color
 }
 
 .profile {
     font-family: $profile-font;
-    width:95%;
-    margin:0 auto;
-    display:flex;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
     flex-direction: column;
-    margin-bottom:20px;
-    
-  &__titles{
-    margin:20px 0px;
-    color:$title-color;
-  }
-  &__textfield{
-    font-size:18px;
-    color:$font-color;
-    background-color:$text-field-bg;
-    padding:10px;
-    border-radius:20px;
-    font-weight:500;
-  }
-  &__skills{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom:20px;
+    margin-bottom: 20px;
+
+  &__titles {
+    margin: 20px 0px;
+    color: $title-color;
   }
 
-  &__skills-item{
-    background-color:$text-field-bg;
-    border-radius: 10px;
-    width:72px;
-    padding:4px;
-    font-size:12px;
-    font-weight:600;
-    color:$font-color;
-    margin:2px;
-    list-style:none;
-    text-align: center;
-    font-weight:600;
+  &__textfield {
+    font-size: 18px;
+    color: $font-color;
+    background-color: $text-field-bg;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction:  row;
+    margin-bottom: 20px;
+  }
+
+  &__skills-item {
+    background-color: $text-field-bg;
+    border-radius:  10px;
+    width: 72px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: $font-color;
+    margin: 2px;
+    list-style: none;
+    text-align:  center;
+    font-weight: 600;
   }
 }
 
-.footer{
-  display:flex;
-  font-family: $profile-font;
-  margin: 0 auto;
-  width:95%;
-  margin-bottom:30px;
+.footer {
+  display: flex;
+  font-family:  $profile-font;
+  margin:  0 auto;
+  width: 95%;
+  margin-bottom: 30px;
 
-  &__link{
-    background-color:$text-field-bg;
-    border-radius: 10px;
-    width:200px;
-    padding:4px;
-    font-size:22px;
-    font-weight:600;
-    color:$font-color;
-    list-style:none;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px;
-    cursor: pointer;
+  &__link {
+    background-color: $text-field-bg;
+    border-radius:  10px;
+    width: 200px;
+    padding: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    color: $font-color;
+    list-style: none;
+    text-align:  center;
+    text-decoration:  none;
+    margin:  5px;
+    cursor:  pointer;
   }
-
 }
 
-@media(min-width: 768px)  {
+@media(min-width:  768px) {
   .profile {
-    font-family: $profile-font;
-    width:80%;
-    margin:0 auto;
-    display:flex;
-    flex-direction: column;
-    margin-bottom:20px;
+    font-family:  $profile-font;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:  column;
+    margin-bottom: 20px;
 
-  &__titles{
-    margin:20px 0px;
-    color:$title-color;
-  }
-  &__textfield{
-    font-size:24px;
-    color:$font-color;
-    background-color:$text-field-bg;
-    padding:10px;
-    border-radius:20px;
-    font-weight:500;
-  }
-  &__skills{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom:20px;
+  &__titles {
+    margin: 20px 0px;
+    color: $title-color;
   }
 
-  &__skills-item{
-    background-color:$text-field-bg;
-    border-radius: 10px;
-    width:95px;
-    padding:6px;
-    font-size:16px;
-    font-weight:600;
-    color:$font-color;
-    margin:2px;
-    list-style:none;
-    text-align: center;
-    font-weight:600;
+  &__textfield {
+    font-size: 24px;
+    color: $font-color;
+    background-color: $text-field-bg;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction:  row;
+    margin-bottom: 20px;
+  }
+
+  &__skills-item {
+    background-color: $text-field-bg;
+    border-radius:  10px;
+    width: 95px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $font-color;
+    margin: 2px;
+    list-style: none;
+    text-align:  center;
+    font-weight: 600;
   }
 }
 
-.footer{
-  display:flex;
-  font-family: $profile-font;
-  margin: auto;
-  width:95%;
-  margin:30px;
+.footer {
+  display: flex;
+  font-family:  $profile-font;
+  margin:  auto;
+  width: 95%;
+  margin: 30px;
   justify-content: center;
 
-  &__link{
-    background-color:$text-field-bg;
+  &__link {
+    background-color: $text-field-bg;
     border-radius: 10px;
-    padding:4px;
-    font-size:25px;
-    font-weight:600;
-    color:$font-color;
-    list-style:none;
-    text-align: center;
-    text-decoration: none;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    color: $font-color;
+    list-style: none;
+    text-align:  center;
+    text-decoration:  none;
     margin: 5px;
     cursor: pointer;
   }
  }
 }
 
-@media(min-width:  1280px) {
+@media(min-width: 1280px) {
   .profile {
     font-family: $profile-font;
-    width:60%;
-    margin:0 auto;
-    display:flex;
-    flex-direction: column;
-    margin-bottom:20px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:  column;
+    margin-bottom: 20px;
 
-  &__titles{
-    margin:20px 0px;
-    color:$title-color;
-  }
-  &__textfield{
-    font-size:24px;
-    color:$font-color;
-    background-color:$text-field-bg;
-    padding:10px;
-    border-radius:20px;
-    font-weight:500;
-  }
-  &__skills{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom:20px;
+  &__titles {
+    margin: 20px 0px;
+    color: $title-color;
   }
 
-  &__skills-item{
-    background-color:$text-field-bg;
-    border-radius: 10px;
-    width:95px;
-    padding:6px;
-    font-size:16px;
-    font-weight:600;
-    color:$font-color;
-    margin:2px;
-    list-style:none;
-    text-align: center;
-    font-weight:600;
+  &__textfield {
+    font-size: 24px;
+    color: $font-color;
+    background-color: $text-field-bg;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction:  row;
+    margin-bottom: 20px;
+  }
+
+  &__skills-item {
+    background-color: $text-field-bg;
+    border-radius:  10px;
+    width: 95px;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $font-color;
+    margin: 2px;
+    list-style: none;
+    text-align:  center;
+    font-weight: 600;
   }
 }
 
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   font-family: $profile-font;
   margin: auto;
-  width:95%;
-  margin:30px;
+  width: 95%;
+  margin: 30px;
   justify-content: center;
 
-  &__link{
-    background-color:$text-field-bg;
+  &__link {
+    background-color: $text-field-bg;
     border-radius: 10px;
-    width:300px;
-    padding:4px;
-    font-size:25px;
-    font-weight:600;
-    color:$font-color;
-    list-style:none;
-    text-align: center;
+    width: 300px;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    color: $font-color;
+    list-style: none;
+    text-align:  center;
     text-decoration: none;
     margin: 5px;
     cursor: pointer;
   }
  }
-
 }

@@ -13,7 +13,7 @@ body{
   overflow-x: hidden;
 }
 
-.shapes{
+.shapes {
   &__triangle {
     @include triangle;
   }
@@ -22,25 +22,25 @@ body{
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
-    top:305px;
-    left:30px;
+    top: 305px;
+    left: 30px;
   }
   
-  &__triangle:nth-child(2){
+  &__triangle:nth-child(2) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid $cyan-shapes;
     transform: rotate(30deg);
-    top:1200px;
-    left:245px;
+    top: 1200px;
+    left: 245px;
   }
   
-  &__triangle:nth-child(3){
+  &__triangle:nth-child(3) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     border-top: 45px solid $springgreen-shapes;
-    top:780px;
-    left:275px;
+    top: 780px;
+    left: 275px;
     transform: rotate(15deg);
   }
 
@@ -48,26 +48,25 @@ body{
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
     border-right: 10px solid transparent;
-    top:75px;
-    left:350px;
-    
+    top: 75px;
+    left: 350px;
   }
   
-  &__triangle:nth-child(5){
+  &__triangle:nth-child(5) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid $cyan-shapes;
     transform: rotate(30deg);
-    top:34px;
-    left:145px;
+    top: 34px;
+    left: 145px;
   }
   
-  &__triangle:nth-child(6){
+  &__triangle:nth-child(6) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     border-top: 45px solid $springgreen-shapes;
-    top:630px;
-    left:125px;
+    top: 630px;
+    left: 125px;
     transform: rotate(15deg);
   }
   
@@ -75,31 +74,31 @@ body{
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    top:205px;
-    left:450px;
+    top: 205px;
+    left: 450px;
   }
   
-  &__triangle:nth-child(8){
+  &__triangle:nth-child(8) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid $cyan-shapes;
     transform: rotate(30deg);
-    top:600px;
-    left:45px;
+    top: 600px;
+    left: 45px;
   }
   
-  &__triangle:nth-child(9){
+  &__triangle:nth-child(9) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     border-top: 45px solid $springgreen-shapes;
-    top:10px;
-    left:220px;
+    top: 10px;
+    left: 220px;
     transform: rotate(15deg);
   }
 }
 
 @media(min-width: 768px) {
-  .shapes{
+  .shapes {
     &__triangle {
       @include triangle;
     }
@@ -108,26 +107,25 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:505px;
-      left:680px;
-      
+      top: 505px;
+      left: 680px;
     }
     
-    &__triangle:nth-child(2){
+    &__triangle:nth-child(2) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
       border-top: 20px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:300px;
-      left:145px;
+      top: 300px;
+      left: 145px;
     }
     
-    &__triangle:nth-child(3){
+    &__triangle:nth-child(3) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:280px;
-      left:975px;
+      top: 280px;
+      left: 975px;
       transform: rotate(15deg);
     }
   
@@ -135,26 +133,25 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 10px solid transparent;
-      top:205px;
-      left:890px;
-      
+      top: 205px;
+      left: 890px;
     }
     
-    &__triangle:nth-child(5){
+    &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:150px;
-      left:-100px;
+      top: 150px;
+      left: -100px;
     }
     
-    &__triangle:nth-child(6){
+    &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:680px;
-      left:1075px;
+      top: 680px;
+      left: 1075px;
       transform: rotate(15deg);
     }
 
@@ -162,32 +159,31 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:305px;
-      left:950px;
-      
+      top: 305px;
+      left: 950px;
     }
     
-    &__triangle:nth-child(8){
+    &__triangle:nth-child(8) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
       border-top: 20px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:777px;
-      left:45px;
+      top: 777px;
+      left: 45px;
     }
     
-    &__triangle:nth-child(9){
+    &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:340px;
-      left:1120px;
+      top: 340px;
+      left: 1120px;
     }
  }
 }
 
 @media (min-width: 1024px) {
-  .shapes{
+  .shapes {
     &__triangle {
       @include triangle;
     }
@@ -196,26 +192,26 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:1105px;
-      left:680px;
+      top: 1105px;
+      left: 680px;
       
     }
     
-    &__triangle:nth-child(2){
+    &__triangle:nth-child(2) {
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
       border-top: 70px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:1250px;
-      left:5px;
+      top: 1250px;
+      left: 5px;
     }
     
-    &__triangle:nth-child(3){
+    &__triangle:nth-child(3) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:680px;
-      left:975px;
+      top: 680px;
+      left: 975px;
       transform: rotate(15deg);
     }
   
@@ -223,26 +219,25 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 10px solid transparent;
-      top:775px;
-      left:890px;
-      
+      top: 775px;
+      left: 890px;
     }
     
-    &__triangle:nth-child(5){
+    &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:930px;
-      left:250px;
+      top: 930px;
+      left: 250px;
     }
     
-    &__triangle:nth-child(6){
+    &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:980px;
-      left:575px;
+      top: 980px;
+      left: 575px;
       transform: rotate(15deg);
     }
 
@@ -250,32 +245,31 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:1005px;
-      left:90px;
-      
+      top: 1005px;
+      left: 90px;
     }
     
-    &__triangle:nth-child(8){
+    &__triangle:nth-child(8) {
       border-left: 40px solid transparent;
       border-right: 40px solid transparent;
       border-top: 40px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:777px;
-      left:445px;
+      top: 777px;
+      left: 445px;
     }
     
-    &__triangle:nth-child(9){
+    &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:590px;
-      left:720px;
+      top: 590px;
+      left: 720px;
     }
  }
 }
 
 @media (min-width: 1200px) {
-  .shapes{
+  .shapes {
     &__triangle {
       @include triangle;
     }
@@ -284,26 +278,25 @@ body{
       border-top: 150px solid $coral-shapes;
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
-      top:55px;
-      left:980px;
-      
+      top: 55px;
+      left: 980px;
     }
     
-    &__triangle:nth-child(2){
+    &__triangle:nth-child(2) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
       border-top: 20px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:300px;
-      left:145px;
+      top: 300px;
+      left: 145px;
     }
     
-    &__triangle:nth-child(3){
+    &__triangle:nth-child(3) {
       border-left: 95px solid transparent;
       border-right: 95px solid transparent;
       border-top: 95px solid $springgreen-shapes;
-      top:420px;
-      left:945px;
+      top: 420px;
+      left: 945px;
       transform: rotate(15deg);
     }
   
@@ -311,26 +304,25 @@ body{
       border-top: 190px solid $coral-shapes;
       border-left: 190px solid transparent;
       border-right: 10px solid transparent;
-      top:425px;
-      left:370px;
-      
+      top: 425px;
+      left: 370px;
     }
     
-    &__triangle:nth-child(5){
+    &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:150px;
-      left:100px;
+      top: 150px;
+      left: 100px;
     }
     
-    &__triangle:nth-child(6){
+    &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:20px;
-      left:125px;
+      top: 20px;
+      left: 125px;
       transform: rotate(15deg);
     }
 
@@ -338,32 +330,31 @@ body{
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      top:305px;
-      left:950px;
-      
+      top: 305px;
+      left: 950px;
     }
     
-    &__triangle:nth-child(8){
+    &__triangle:nth-child(8) {
       border-left: 40px solid transparent;
       border-right: 40px solid transparent;
       border-top: 40px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:140px;
-      left:345px;
+      top: 140px;
+      left: 345px;
     }
     
-    &__triangle:nth-child(9){
+    &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
       border-top: 45px solid $springgreen-shapes;
-      top:340px;
-      left:1120px;
+      top: 340px;
+      left: 1120px;
     }
  }
 }
 
 @media (min-width: 1400px) {
-  .shapes{
+  .shapes {
     &__triangle {
       @include triangle;
     }
@@ -372,26 +363,25 @@ body{
       border-top: 150px solid $coral-shapes;
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
-      top:355px;
-      left:380px;
-      
+      top: 355px;
+      left: 380px;
     }
     
-    &__triangle:nth-child(2){
+    &__triangle:nth-child(2) {
       border-left: 130px solid transparent;
       border-right: 130px solid transparent;
       border-top: 130px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:900px;
-      left:1345px;
+      top: 900px;
+      left: 1345px;
     }
     
-    &__triangle:nth-child(3){
+    &__triangle:nth-child(3) {
       border-left: 145px solid transparent;
       border-right: 145px solid transparent;
       border-top: 145px solid $springgreen-shapes;
-      top:800px;
-      left:775px;
+      top: 800px;
+      left: 775px;
       transform: rotate(15deg);
     }
   
@@ -399,26 +389,25 @@ body{
       border-top: 150px solid $coral-shapes;
       border-left: 150px solid transparent;
       border-right: 10px solid transparent;
-      top:705px;
-      left:1090px;
-      
+      top: 705px;
+      left: 1090px;
     }
     
-    &__triangle:nth-child(5){
+    &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:850px;
-      left:100px;
+      top: 850px;
+      left: 100px;
     }
     
-    &__triangle:nth-child(6){
+    &__triangle:nth-child(6) {
       border-left: 130px solid transparent;
       border-right: 130px solid transparent;
       border-top: 130px solid $springgreen-shapes;
-      top:980px;
-      left:75px;
+      top: 980px;
+      left: 75px;
       transform: rotate(15deg);
     }
 
@@ -426,26 +415,25 @@ body{
       border-top: 100px solid $coral-shapes;
       border-left: 100px solid transparent;
       border-right: 100px solid transparent;
-      top:605px;
-      left:0px;
-      
+      top: 605px;
+      left: 0px;
     }
     
-    &__triangle:nth-child(8){
+    &__triangle:nth-child(8) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top:477px;
-      left:645px;
+      top: 477px;
+      left: 645px;
     }
     
-    &__triangle:nth-child(9){
+    &__triangle:nth-child(9) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
       border-top: 150px solid $springgreen-shapes;
-      top:840px;
-      left:1620px;
+      top: 840px;
+      left: 1620px;
     }
  }
 }

@@ -3,30 +3,30 @@
 @mixin circle {
   position: fixed;
   height: 150px;
-  width:150px;
+  width: 150px;
   z-index: -1;
   border-radius: 50%;
-  opacity:0.7;
+  opacity: 0.7;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
 .shapes{
-  &__circle{
+  &__circle {
     @include circle;
   }
 
-  &__circle:nth-child(1){
-    background-color:$springgreen-shapes;
+  &__circle:nth-child(1) {
+    background-color: $springgreen-shapes;
     top:405px;
     left:150px;
     width:95px;
     height:95px;
   }
   
-  &__circle:nth-child(2){
+  &__circle:nth-child(2) {
     background-color:$coral-shapes;
     top: 625px;
     left: -67px;
@@ -35,55 +35,56 @@ body{
 
   }
   
-  &__circle:nth-child(3){
-    background-color:$cyan-shapes;
-  top: 615px;
-  left: 215px;
+  &__circle:nth-child(3) {
+    background-color: $cyan-shapes;
+  top:  615px;
+  left:  215px;
   }
-  &__circle:nth-child(4){
-    background-color:$springgreen-shapes;
-    top:900px;
-    left:970px;
-    width:295px;
-    height:295px;
-  }
-  
-  &__circle:nth-child(5){
-    background-color:$coral-shapes;
-    top:80px;
-    left:167px;
-    width:85px;
-    height:85px;
-  }
-  
-  &__circle:nth-child(6){
-    background-color:$cyan-shapes;
-    width:885px;
-    height:885px;
-    top:1515px;
-    left:797px;
-  }
-  &__circle:nth-child(7){
-    background-color:$springgreen-shapes;
-    top:300px;
-    left:270px;
-    width:95px;
-    height:95px;
-  }
-  
-  &__circle:nth-child(8){
-    background-color:$coral-shapes;
-    top:395px;
-    left:1847px;
 
-    width:35px;
-    height:35px;
+  &__circle:nth-child(4) {
+    background-color: $springgreen-shapes;
+    top: 900px;
+    left: 970px;
+    width: 295px;
+    height: 295px;
   }
   
-  &__circle:nth-child(9){
-    background-color:$cyan-shapes;
-    top:15px;
-    left:1197px;
+  &__circle:nth-child(5) {
+    background-color: $coral-shapes;
+    top: 80px;
+    left: 167px;
+    width: 85px;
+    height: 85px;
+  }
+  
+  &__circle:nth-child(6) {
+    background-color: $cyan-shapes;
+    width: 885px;
+    height: 885px;
+    top: 1515px;
+    left: 797px;
+  }
+
+  &__circle:nth-child(7) {
+    background-color: $springgreen-shapes;
+    top: 300px;
+    left: 270px;
+    width: 95px;
+    height: 95px;
+  }
+  
+  &__circle:nth-child(8) {
+    background-color: $coral-shapes;
+    top: 395px;
+    left: 1847px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  &__circle:nth-child(9) {
+    background-color: $cyan-shapes;
+    top: 15px;
+    left: 1197px;
   }
 }
 
@@ -93,72 +94,69 @@ body{
       @include circle;
     }
   
-    &__circle:nth-child(1){
-      background-color:$springgreen-shapes;
-      top:950;
-      left:600px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(1) {
+      background-color: $springgreen-shapes;
+      top: 950;
+      left: 600px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(2){
-      background-color:$coral-shapes;
-      top:-20px;
-      left:615px;
-      width:195px;
-      height:195px;
-  
+    &__circle:nth-child(2) {
+      background-color: $coral-shapes;
+      top: -20px;
+      left: 615px;
+      width: 195px;
+      height: 195px;
     }
     
-    &__circle:nth-child(3){
-      background-color:$cyan-shapes;
-      top:580px;
-      left:775px;
-      width:295px;
-      height:295px;
+    &__circle:nth-child(3) {
+      background-color: $cyan-shapes;
+      top: 580px;
+      left: 775px;
+      width: 295px;
+      height: 295px;
     }
-    &__circle:nth-child(4){
-      background-color:$springgreen-shapes;
-      top:905px;
-      left:-100px;
-      width:295px;
-      height:295px;
-    }
-    
-    &__circle:nth-child(5){
-      background-color:$coral-shapes;
-      top:850px;
-      left:245px;
-  
+    &__circle:nth-child(4) {
+      background-color: $springgreen-shapes;
+      top: 905px;
+      left: -100px;
+      width: 295px;
+      height: 295px;
     }
     
-    &__circle:nth-child(6){
-      background-color:$cyan-shapes;
-      width:115px;
-      height:115px;
-      top:950px;
-      left:1075px;
+    &__circle:nth-child(5) {
+      background-color: $coral-shapes;
+      top: 850px;
+      left: 245px;
+    }
+    
+    &__circle:nth-child(6) {
+      background-color: $cyan-shapes;
+      width: 115px;
+      height: 115px;
+      top: 950px;
+      left: 1075px;
     }
 
-    &__circle:nth-child(7){
-      background-color:$springgreen-shapes;
-      top:605px;
-      left:20px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(7) {
+      background-color: $springgreen-shapes;
+      top: 605px;
+      left: 20px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(8){
-      background-color:$coral-shapes;
-      top:300px;
-      left:45px;
-  
+    &__circle:nth-child(8) {
+      background-color: $coral-shapes;
+      top: 300px;
+      left: 45px;
     }
     
-    &__circle:nth-child(9){
-      background-color:$cyan-shapes;
-      top:840px;
-      left:720px;
+    &__circle:nth-child(9) {
+      background-color: $cyan-shapes;
+      top: 840px;
+      left: 720px;
     }
   }
 }
@@ -169,229 +167,222 @@ body{
       @include circle;
     }
   
-    &__circle:nth-child(1){
-      background-color:$springgreen-shapes;
-      top:950;
-      left:600px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(1) {
+      background-color: $springgreen-shapes;
+      top: 950;
+      left: 600px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(2){
-      background-color:$coral-shapes;
-      top:720px;
-      left:615px;
-      width:195px;
-      height:195px;
-  
+    &__circle:nth-child(2) {
+      background-color: $coral-shapes;
+      top: 720px;
+      left: 615px;
+      width: 195px;
+      height: 195px;
     }
     
-    &__circle:nth-child(3){
-      background-color:$cyan-shapes;
-      top:580px;
-      left:875px;
-      width:95px;
-      height:95px;
-    }
-    &__circle:nth-child(4){
-      background-color:$springgreen-shapes;
-      top:870px;
-      left:500px;
-      width:95px;
-      height:95px;
-    }
-    
-    &__circle:nth-child(5){
-      background-color:$coral-shapes;
-      top:1250px;
-      left:945px;
-  
-    }
-    
-    &__circle:nth-child(6){
-      background-color:$cyan-shapes;
-      width:115px;
-      height:115px;
-      top:1150px;
-      left:585px;
+    &__circle:nth-child(3) {
+      background-color: $cyan-shapes;
+      top: 580px;
+      left: 875px;
+      width: 95px;
+      height: 95px;
     }
 
-    &__circle:nth-child(7){
-      background-color:$springgreen-shapes;
-      top:595px;
-      left:20px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(4) {
+      background-color: $springgreen-shapes;
+      top: 870px;
+      left: 500px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(8){
-      background-color:$coral-shapes;
-      top:1100px;
-      left:545px;
-  
+    &__circle:nth-child(5) {
+      background-color: $coral-shapes;
+      top: 1250px;
+      left: 945px;
     }
     
-    &__circle:nth-child(9){
-      background-color:$cyan-shapes;
-      top:110px;
-      left:720px;
+    &__circle:nth-child(6) {
+      background-color: $cyan-shapes;
+      width: 115px;
+      height: 115px;
+      top: 1150px;
+      left: 585px;
+    }
+
+    &__circle:nth-child(7) {
+      background-color: $springgreen-shapes;
+      top: 595px;
+      left: 20px;
+      width: 95px;
+      height: 95px;
+    }
+    
+    &__circle:nth-child(8) {
+      background-color: $coral-shapes;
+      top: 1100px;
+      left: 545px;
+    }
+    
+    &__circle:nth-child(9) {
+      background-color: $cyan-shapes;
+      top: 110px;
+      left: 720px;
     }
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px)  {
   .shapes{
     &__circle{
       @include circle;
     }
   
-    &__circle:nth-child(1){
-      background-color:$springgreen-shapes;
-      top:750;
-      left:600px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(1) {
+      background-color: $springgreen-shapes;
+      top: 750;
+      left: 600px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(2){
-      background-color:$coral-shapes;
-      top:0px;
-      left:615px;
-      width:195px;
-      height:195px;
-  
+    &__circle:nth-child(2) {
+      background-color: $coral-shapes;
+      top: 0px;
+      left: 615px;
+      width: 195px;
+      height: 195px;
     }
     
-    &__circle:nth-child(3){
-      background-color:$cyan-shapes;
-      top:580px;
-      left:775px;
-      width:295px;
-      height:295px;
+    &__circle:nth-child(3) {
+      background-color: $cyan-shapes;
+      top: 580px;
+      left: 775px;
+      width: 295px;
+      height: 295px;
     }
 
-    &__circle:nth-child(4){
-      background-color:$springgreen-shapes;
-      top:105px;
-      left:950px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(4) {
+      background-color: $springgreen-shapes;
+      top: 105px;
+      left: 950px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(5){
-      background-color:$coral-shapes;
-      top:150px;
-      left:45px;
-  
+    &__circle:nth-child(5) {
+      background-color: $coral-shapes;
+      top: 150px;
+      left: 45px;
     }
     
-    &__circle:nth-child(6){
-      background-color:$cyan-shapes;
-      width:115px;
-      height:115px;
-      top:950px;
-      left:1075px;
+    &__circle:nth-child(6) {
+      background-color: $cyan-shapes;
+      width: 115px;
+      height: 115px;
+      top: 950px;
+      left: 1075px;
     }
 
-    &__circle:nth-child(7){
-      background-color:$springgreen-shapes;
-      top:605px;
-      left:0px;
-      width:95px;
-      height:95px;
+    &__circle:nth-child(7) {
+      background-color: $springgreen-shapes;
+      top: 605px;
+      left: 0px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(8){
-      background-color:$coral-shapes;
-      top:300px;
-      left:45px;
-  
+    &__circle:nth-child(8) {
+      background-color: $coral-shapes;
+      top: 300px;
+      left: 45px;
     }
     
-    &__circle:nth-child(9){
-      background-color:$cyan-shapes;
-      top:340px;
-      left:720px;
+    &__circle:nth-child(9) {
+      background-color: $cyan-shapes;
+      top: 340px;
+      left: 720px;
     }
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px)  {
   .shapes{
-    &__circle{
+    &__circle {
       @include circle;
     }
   
-    &__circle:nth-child(1){
-      background-color:$springgreen-shapes;
-      top:950;
-      left:1600px;
-      width:155px;
-      height:155px;
+    &__circle:nth-child(1) {
+      background-color: $springgreen-shapes;
+      top: 950;
+      left: 1600px;
+      width: 155px;
+      height: 155px;
     }
     
-    &__circle:nth-child(2){
-      background-color:$coral-shapes;
-      top:-20px;
-      left:615px;
-      width:195px;
-      height:195px;
-  
+    &__circle:nth-child(2) {
+      background-color: $coral-shapes;
+      top: -20px;
+      left: 615px;
+      width: 195px;
+      height: 195px;
     }
     
-    &__circle:nth-child(3){
-      background-color:$cyan-shapes;
-      top:580px;
-      left:1175px;
-      width:95px;
-      height:95px;
-    }
-    &__circle:nth-child(4){
-      background-color:$springgreen-shapes;
-      top:905px;
-      left:50px;
-      width:95px;
-      height:95px;
-    }
-    
-    &__circle:nth-child(5){
-      background-color:$coral-shapes;
-      top:650px;
-      left:245px;
-  
-    }
-    
-    &__circle:nth-child(6){
-      background-color:$cyan-shapes;
-      width:115px;
-      height:115px;
-      top:400px;
-      left:175px;
+    &__circle:nth-child(3) {
+      background-color: $cyan-shapes;
+      top: 580px;
+      left: 1175px;
+      width: 95px;
+      height: 95px;
     }
 
-    &__circle:nth-child(7){
-      background-color:$springgreen-shapes;
-      top:225px;
-      left:45px;
-      width:195px;
-      height:195px;
+    &__circle:nth-child(4) {
+      background-color: $springgreen-shapes;
+      top: 905px;
+      left: 50px;
+      width: 95px;
+      height: 95px;
     }
     
-    &__circle:nth-child(8){
-      background-color:$coral-shapes;
-      top:300px;
-      left:1020px;
-      width:155px;
-      height:155px;
-  
+    &__circle:nth-child(5) {
+      background-color: $coral-shapes;
+      top: 650px;
+      left: 245px;
     }
     
-    &__circle:nth-child(9){
-      background-color:$cyan-shapes;
-      top:840px;
-      left:420px;
-      width:255px;
-      height:255px;
+    &__circle:nth-child(6) {
+      background-color: $cyan-shapes;
+      width: 115px;
+      height: 115px;
+      top: 400px;
+      left: 175px;
+    }
+
+    &__circle:nth-child(7) {
+      background-color: $springgreen-shapes;
+      top: 225px;
+      left: 45px;
+      width: 195px;
+      height: 195px;
+    }
+    
+    &__circle:nth-child(8) {
+      background-color: $coral-shapes;
+      top: 300px;
+      left: 1020px;
+      width: 155px;
+      height: 155px;
+    }
+    
+    &__circle:nth-child(9) {
+      background-color: $cyan-shapes;
+      top: 840px;
+      left: 420px;
+      width: 255px;
+      height: 255px;
     }
   }
 }
