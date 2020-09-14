@@ -5,6 +5,8 @@ $font-color: #fff;
 $title-color: #2a3132;
 $pill-color: #3f681c;
 
+@import 'variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +37,14 @@ body {
     border-radius: 20px;
     font-weight: 500;
   }
-
+  &__textfield a{
+    text-decoration:none;
+    color: $link-color-coral;
+  }
+  &__textfield a:hover{
+    text-decoration:none;
+    font-weight:bold;
+  }
   &__skills {
     display: flex;
     flex-wrap:  wrap;

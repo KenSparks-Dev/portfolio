@@ -1,3 +1,4 @@
+/*SCSS list*/
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +34,16 @@ body {
   padding: 10px;
   border-radius: 20px;
   font-weight: 500;
+}
+
+.profile__textfield a {
+  text-decoration: none;
+  color: #f08080;
+}
+
+.profile__textfield a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .profile__skills {
