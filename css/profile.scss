@@ -4,7 +4,6 @@ $text-field-bg: #375397;
 $title-color: #2a3132;
 $pill-color: #3f681c;
 $font-color:#fff;
-
 @import 'variables';
 
 * {
@@ -49,6 +48,7 @@ body {
     display: flex;
     flex-wrap:  wrap;
     flex-direction:  row;
+    margin-bottom: 0px;
   }
 
   &__skills-item {
@@ -194,6 +194,77 @@ body {
     width: 95px;
     padding: 6px;
     font-size: 16px;
+    font-weight: 600;
+    color: $font-color;
+    margin: 2px;
+    list-style: none;
+    text-align:  center;
+    font-weight: 600;
+  }
+}
+
+.footer {
+  display: flex;
+  font-family: $profile-font;
+  margin: auto;
+  width: 95%;
+  margin: 30px;
+  justify-content: center;
+
+  &__link {
+    background-color: $text-field-bg;
+    border-radius: 10px;
+    width: 300px;
+    padding: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    color: $font-color;
+    list-style: none;
+    text-align:  center;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+ }
+}
+
+@media(min-width: 1400px) {
+  .profile {
+    font-family: $profile-font;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:  column;
+    margin-bottom: 20px;
+
+  &__titles {
+    margin: 20px 0px;
+    color: $title-color;
+  }
+
+  &__textfield {
+    font-size: 24px;
+    color: $font-color;
+    background-color: $text-field-bg;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction:  row;
+    margin-bottom: 20px;
+    width:1150px;
+  }
+
+  &__skills-item {
+    background-color: $text-field-bg;
+    border-radius:  10px;
+    width: 125px;
+    padding: 6px;
+    font-size: 24px;
     font-weight: 600;
     color: $font-color;
     margin: 2px;
