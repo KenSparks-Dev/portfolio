@@ -188,7 +188,9 @@ body {
   .shapes__circle:nth-child(5) {
     background-color: #f08080;
     top: 1250px;
-    left: 945px;
+    left: 625px;
+    width: 335px;
+    height: 325px;
   }
   .shapes__circle:nth-child(6) {
     background-color: #008b8b;
@@ -257,6 +259,8 @@ body {
     background-color: #f08080;
     top: 150px;
     left: 45px;
+    width: 95px;
+    height: 95px;
   }
   .shapes__circle:nth-child(6) {
     background-color: #008b8b;
