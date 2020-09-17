@@ -87,8 +87,14 @@ body {
 }
 
 .testimonials__titles {
-  margin: 20px 0px;
+  margin-bottom: 20px;
   color: #2a3132;
+}
+
+.testimonials__collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .testimonials__group {
@@ -210,9 +216,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: auto;
+    width: 80%;
   }
   .testimonials__titles {
-    margin: 20px 60px;
+    margin: 20px 0px;
     color: #2a3132;
   }
   .testimonials__group {
@@ -303,7 +310,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   .profile__skills-item {
     background-color: #375397;
@@ -326,7 +333,6 @@ body {
     margin: auto;
   }
   .testimonials__titles {
-    margin: 20px 60px;
     color: #2a3132;
   }
   .testimonials__group {
@@ -387,9 +393,6 @@ body {
     font-family: "Work Sans", sans-serif;
     width: 50%;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -432,6 +435,47 @@ body {
     list-style: none;
     text-align: center;
     font-weight: 600;
+  }
+  .testimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .testimonials__titles {
+    color: #2a3132;
+  }
+  .testimonials__collection {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .testimonials__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 550px;
+  }
+  .testimonials__group-img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+  .testimonials__group__text {
+    margin: 5px 10px;
+  }
+  .testimonials__group__text-quote {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .testimonials__group__text-author {
+    font-size: 14px;
   }
   .footer {
     display: -webkit-box;

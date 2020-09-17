@@ -72,10 +72,16 @@ body {
   flex-direction: column;
   margin: auto;
   font-family: $profile-font;
+
   &__titles{
-    margin: 20px 0px;
+    margin-bottom:20px;
     color: $title-color;
   }
+
+  &__collection{
+    display: flex;
+  }
+
   &__group {
     font-size: 18px;
     color: $font-color;
@@ -185,12 +191,13 @@ body {
 .testimonials {
   flex-direction: column;
   margin: auto;
+  width:80%;
 
   &__titles {
-  margin: 20px 60px;
-  color: $title-color;
+    margin: 20px 0px;
+    color: $title-color;
   }
-
+  
   &__group {
     display: flex;
     margin: 0 auto;
@@ -271,7 +278,7 @@ body {
     display: flex;
     flex-wrap:  wrap;
     flex-direction:  row;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   &__skills-item {
@@ -294,7 +301,6 @@ body {
   margin: auto;
 
   &__titles {
-  margin: 20px 60px;
   color: $title-color;
   }
 
@@ -357,7 +363,6 @@ body {
     font-family: $profile-font;
     width: 50%;
     margin: 0 auto;
-    display: flex;
     flex-direction:  column;
     margin-bottom: 20px;
 
@@ -394,6 +399,45 @@ body {
     list-style: none;
     text-align:  center;
     font-weight: 600;
+  }
+}
+
+.testimonials {
+  flex-direction: column;
+  margin: auto;
+
+  &__titles {
+  color: $title-color;
+  }
+  &__collection{
+    flex-direction: row;
+  }
+  &__group {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width:550px;
+  }
+
+  &__group-img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+
+  &__group__text {
+    margin: 5px 10px;
+  }
+
+  &__group__text-quote {
+    font-size:16px;
+    padding-bottom:10px;
+  }
+
+  &__group__text-author {
+    font-size: 14px;
   }
 }
 
