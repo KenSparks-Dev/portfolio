@@ -176,7 +176,7 @@ body {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .profile {
     font-family: "Work Sans", sans-serif;
     width: 60%;
@@ -217,9 +217,9 @@ body {
   .profile__skills-item {
     background-color: #375397;
     border-radius: 10px;
-    width: 95px;
+    width: 105px;
     padding: 6px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
     margin: 2px;
@@ -258,7 +258,7 @@ body {
 @media (min-width: 1400px) {
   .profile {
     font-family: "Work Sans", sans-serif;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -292,14 +292,13 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-bottom: 20px;
-    width: 1150px;
   }
   .profile__skills-item {
     background-color: #375397;
     border-radius: 10px;
-    width: 125px;
+    width: 115px;
     padding: 6px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
     margin: 2px;
