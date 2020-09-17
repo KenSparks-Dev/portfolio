@@ -80,6 +80,7 @@ body {
 
   &__collection{
     display: flex;
+    flex-direction: column;
   }
 
   &__group {
@@ -157,6 +158,7 @@ body {
     color: $title-color;
   }
 
+
   &__textfield {
     font-size: 20px;
     color: $font-color;
@@ -197,7 +199,7 @@ body {
     margin: 20px 0px;
     color: $title-color;
   }
-  
+
   &__group {
     display: flex;
     margin: 0 auto;
@@ -299,6 +301,7 @@ body {
 .testimonials {
   flex-direction: column;
   margin: auto;
+  width:60%;
 
   &__titles {
   color: $title-color;
@@ -361,10 +364,10 @@ body {
 @media(min-width: 1400px) {
   .profile {
     font-family: $profile-font;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     flex-direction:  column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
   &__titles {
     margin: 20px 0px;
@@ -405,35 +408,36 @@ body {
 .testimonials {
   flex-direction: column;
   margin: auto;
+  width: 70%;
 
   &__titles {
   color: $title-color;
   }
   &__collection{
-    flex-direction: row;
+    flex-direction:row;
   }
   &__group {
     display: flex;
     margin: 0 auto;
     margin-bottom: 10px;
-    width:550px;
+    width:450px;
+    height: 240px;
   }
 
   &__group-img {
-    margin: 0 auto;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 230px;
     border-radius: 10px;
-    padding-bottom: 5px;
+    margin-top:5px;
   }
 
   &__group__text {
-    margin: 5px 10px;
+    padding: -10px 0px 0px 10px;
   }
 
   &__group__text-quote {
-    font-size:16px;
-    padding-bottom:10px;
+    font-size:14px;
+    padding-bottom:5px;
   }
 
   &__group__text-author {
