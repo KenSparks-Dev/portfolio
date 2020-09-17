@@ -142,7 +142,7 @@ body{
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top: 150px;
+      top: 90px;
       left: -100px;
     }
     
@@ -207,12 +207,12 @@ body{
     }
     
     &__triangle:nth-child(3) {
-      border-left: 45px solid transparent;
-      border-right: 45px solid transparent;
-      border-top: 45px solid $springgreen-shapes;
-      top: 680px;
-      left: 975px;
-      transform: rotate(15deg);
+      border-left: 145px solid transparent;
+      border-right: 145px solid transparent;
+      border-top: 145px solid $springgreen-shapes;
+      top: 80px;
+      left: 825px;
+      transform: rotate(95deg);
     }
   
     &__triangle:nth-child(4) {
@@ -228,7 +228,7 @@ body{
       border-right: 150px solid transparent;
       border-top: 150px solid $cyan-shapes;
       transform: rotate(30deg);
-      top: 930px;
+      top: 30px;
       left: 250px;
     }
     
