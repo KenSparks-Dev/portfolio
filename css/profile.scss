@@ -1,10 +1,10 @@
-$profile-font:  'Work Sans', sans-serif;
-$background-color: #F5F5F5;
+$profile-font: "Work Sans", sans-serif;
+$background-color: #f5f5f5;
 $text-field-bg: #375397;
 $title-color: #2a3132;
 $pill-color: #3f681c;
-$font-color:#fff;
-@import 'variables';
+$font-color: #fff;
+@import "variables";
 
 * {
   margin: 0;
@@ -12,16 +12,16 @@ $font-color:#fff;
 }
 
 body {
-  background-color:  $background-color
+  background-color: $background-color;
 }
 
 .profile {
-    font-family: $profile-font;
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+  font-family: $profile-font;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 
   &__titles {
     margin: 20px 0px;
@@ -36,24 +36,24 @@ body {
     border-radius: 20px;
     font-weight: 500;
   }
-  &__textfield a{
-    text-decoration:none;
+  &__textfield a {
+    text-decoration: none;
     color: $link-color-coral;
   }
-  &__textfield a:hover{
-    text-decoration:none;
-    font-weight:bold;
+  &__textfield a:hover {
+    text-decoration: none;
+    font-weight: bold;
   }
   &__skills {
     display: flex;
-    flex-wrap:  wrap;
-    flex-direction:  row;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: 0px;
   }
 
   &__skills-item {
     background-color: $text-field-bg;
-    border-radius:  10px;
+    border-radius: 10px;
     width: 72px;
     padding: 4px;
     font-size: 12px;
@@ -66,406 +66,393 @@ body {
   }
 }
 
-.testimonials{
+.testimonials {
   width: 95%;
   display: flex;
   flex-direction: column;
   margin: auto;
   font-family: $profile-font;
 
-  &__titles{
-    margin-bottom:20px;
+  &__titles {
+    margin-bottom: 20px;
     color: $title-color;
   }
 
-  &__collection{
-    display: flex;
-    flex-direction: column;
-  }
-
   &__group {
-    font-size: 18px;
+    display: flex;
+    flex-direction: row;
     color: $font-color;
     background-color: $text-field-bg;
     padding: 15px;
     border-radius: 20px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   &__group-img {
-    margin: 0 auto;
-    width: 100%;
-    height: 320px;
-    border-radius: 10px;
-    padding-bottom:10px;
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
   }
 
-  &__group__text-quote{
-    font-size:15px;
-    padding-bottom:10px;
+  &__group__text {
+    padding-left: 5px;
   }
 
-  &__group__text-author{
-    font-size:12px;
+  &__group__text-quote {
+    font-size: 14px;
+    padding-bottom: 10px;
   }
 
-   a{
-    text-decoration:none;
+  &__group__text-author {
+    font-size: 12px;
+  }
+
+  a {
+    text-decoration: none;
     color: $link-color-coral;
   }
 
-  a:hover{
-    text-decoration:none;
-    font-weight:bold;
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
   }
 }
 
 .footer {
   display: flex;
-  font-family:  $profile-font;
-  margin:  0 auto;
+  font-family: $profile-font;
+  margin: 0 auto;
   width: 95%;
   padding-bottom: 40px;
 
   &__link {
     background-color: $text-field-bg;
-    border-radius:  10px;
+    border-radius: 10px;
     width: 200px;
     padding: 4px;
     font-size: 22px;
     font-weight: 600;
     color: $font-color;
     list-style: none;
-    text-align:  center;
-    text-decoration:  none;
-    margin:  5px;
-    cursor:  pointer;
-  }
-}
-
-@media(min-width: 768px) {
-  .profile {
-    font-family:  $profile-font;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction:  column;
-    margin-bottom: 20px;
-
-  &__titles {
-    margin: 20px 0px;
-    color: $title-color;
-  }
-
-
-  &__textfield {
-    font-size: 20px;
-    color: $font-color;
-    background-color: $text-field-bg;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 400;
-  }
-
-  &__skills {
-    display: flex;
-    flex-wrap:  wrap;
-    flex-direction:  row;
-    margin-bottom: 5px;
-  }
-
-  &__skills-item {
-    background-color: $text-field-bg;
-    border-radius:  10px;
-    width: 95px;
-    padding: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    color: $font-color;
-    margin: 2px;
-    list-style: none;
-    text-align:  center;
-    font-weight: 600;
-  }
-}
-
-.testimonials {
-  flex-direction: column;
-  margin: auto;
-  width:80%;
-
-  &__titles {
-    margin: 20px 0px;
-    color: $title-color;
-  }
-
-  &__group {
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width:600px;
-  }
-
-  &__group-img {
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-  }
-
-  &__group__text {
-    margin: 5px 10px;
-  }
-
-  &__group__text-quote {
-    font-size:16px;
-    padding-bottom:10px;
-  }
-
-  &__group__text-author {
-    font-size: 14px;
-  }
-}
-
-.footer {
-  display: flex;
-  font-family:  $profile-font;
-  margin:  auto;
-  margin-bottom:90px;
-  width: 95%;
-  justify-content: center;
-
-  &__link {
-    background-color: $text-field-bg;
-    border-radius: 10px;
-    padding: 4px;
-    font-size: 16px;
-    font-weight: 600;
-    color: $font-color;
-    list-style: none;
-    text-align:  center;
-    text-decoration:  none;
-    margin: 5px;
-    cursor: pointer;
-  }
- }
-}
-
-@media(min-width: 1200px) {
-  .profile {
-    font-family: $profile-font;
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction:  column;
-    margin-bottom: 20px;
-
-  &__titles {
-    margin: 20px 0px;
-    color: $title-color;
-  }
-
-  &__textfield {
-    font-size: 24px;
-    color: $font-color;
-    background-color: $text-field-bg;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 500;
-  }
-
-  &__skills {
-    display: flex;
-    flex-wrap:  wrap;
-    flex-direction:  row;
-    margin-bottom: 5px;
-  }
-
-  &__skills-item {
-    background-color: $text-field-bg;
-    border-radius:  10px;
-    width: 105px;
-    padding: 6px;
-    font-size: 20px;
-    font-weight: 600;
-    color: $font-color;
-    margin: 2px;
-    list-style: none;
-    text-align:  center;
-    font-weight: 600;
-  }
-}
-
-.testimonials {
-  flex-direction: column;
-  margin: auto;
-  width:60%;
-
-  &__titles {
-  color: $title-color;
-  }
-
-  &__group {
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width:550px;
-  }
-
-  &__group-img {
-    margin: 0 auto;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-  }
-
-  &__group__text {
-    margin: 5px 10px;
-  }
-
-  &__group__text-quote {
-    font-size:16px;
-    padding-bottom:10px;
-  }
-
-  &__group__text-author {
-    font-size: 14px;
-  }
-}
-
-.footer {
-  display: flex;
-  font-family: $profile-font;
-  margin: auto;
-  width: 95%;
-  margin: 30px;
-  justify-content: center;
-
-  &__link {
-    background-color: $text-field-bg;
-    border-radius: 10px;
-    width: 300px;
-    padding: 4px;
-    font-size: 25px;
-    font-weight: 600;
-    color: $font-color;
-    list-style: none;
-    text-align:  center;
+    text-align: center;
     text-decoration: none;
     margin: 5px;
     cursor: pointer;
   }
- }
 }
 
-@media(min-width: 1400px) {
+@media (min-width: 768px) {
+  .profile {
+    font-family: $profile-font;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__titles {
+      margin: 20px 0px;
+      color: $title-color;
+    }
+
+    &__textfield {
+      font-size: 20px;
+      color: $font-color;
+      background-color: $text-field-bg;
+      padding: 10px;
+      border-radius: 20px;
+      font-weight: 400;
+    }
+
+    &__skills {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom: 5px;
+    }
+
+    &__skills-item {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      width: 95px;
+      padding: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      color: $font-color;
+      margin: 2px;
+      list-style: none;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  .testimonials {
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    margin-bottom:40px;
+
+    &__titles {
+      margin: 20px 0px;
+      color: $title-color;
+    }
+
+    &__group {
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      width: 600px;
+    }
+
+    &__group-img {
+      padding-bottom: 5px;
+    }
+
+    &__group__text {
+      margin: 5px 10px;
+    }
+
+    &__group__text-quote {
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+
+    &__group__text-author {
+      font-size: 14px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    font-family: $profile-font;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95%;
+    justify-content: center;
+
+    &__link {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      padding: 4px;
+      font-size: 32px;
+      font-weight: 600;
+      color: $font-color;
+      list-style: none;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile {
+    font-family: $profile-font;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__titles {
+      margin: 20px 0px;
+      color: $title-color;
+    }
+
+    &__textfield {
+      font-size: 24px;
+      color: $font-color;
+      background-color: $text-field-bg;
+      padding: 10px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    &__skills {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom: 5px;
+    }
+
+    &__skills-item {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      width: 105px;
+      padding: 6px;
+      font-size: 20px;
+      font-weight: 600;
+      color: $font-color;
+      margin: 2px;
+      list-style: none;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  .testimonials {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+
+    &__titles {
+      color: $title-color;
+    }
+
+    &__collection {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    &__group {
+      display: flex;
+      margin: 0 auto;
+      margin: 5px;
+      width: 600px;
+    }
+
+    &__group-img {
+      padding: 0px;
+    }
+
+    &__group__text {
+      margin: 0px 10px;
+    }
+
+    &__group__text-quote {
+      font-size: 16px;
+      padding-bottom: 4px;
+    }
+
+    &__group__text-author {
+      font-size: 14px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    font-family: $profile-font;
+    margin: auto;
+    width: 95%;
+    margin: 30px;
+    justify-content: center;
+
+    &__link {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      width: 300px;
+      padding: 4px;
+      font-size: 25px;
+      font-weight: 600;
+      color: $font-color;
+      list-style: none;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
   .profile {
     font-family: $profile-font;
     width: 70%;
     margin: 0 auto;
-    flex-direction:  column;
+    flex-direction: column;
     margin-bottom: 10px;
 
-  &__titles {
-    margin: 20px 0px;
-    color: $title-color;
+    &__titles {
+      margin: 20px 0px;
+      color: $title-color;
+    }
+
+    &__textfield {
+      font-size: 24px;
+      color: $font-color;
+      background-color: $text-field-bg;
+      padding: 10px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    &__skills {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom: 20px;
+    }
+
+    &__skills-item {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      width: 115px;
+      padding: 6px;
+      font-size: 20px;
+      font-weight: 600;
+      color: $font-color;
+      margin: 2px;
+      list-style: none;
+      text-align: center;
+      font-weight: 600;
+    }
   }
 
-  &__textfield {
-    font-size: 24px;
-    color: $font-color;
-    background-color: $text-field-bg;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 500;
+  .testimonials {
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+
+    &__titles {
+      color: $title-color;
+    }
+    &__collection {
+      flex-direction: row;
+    }
+    &__group {
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    &__group-img {
+      margin-top: 5px;
+    }
+
+    &__group__text-quote {
+      font-size: 18px;
+      padding-bottom: 5px;
+    }
+
+    &__group__text-author {
+      font-size: 16px;
+    }
   }
 
-  &__skills {
+  .footer {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 20px;
-  }
+    font-family: $profile-font;
+    margin: auto;
+    width: 95%;
+    margin: 30px;
+    justify-content: center;
 
-  &__skills-item {
-    background-color: $text-field-bg;
-    border-radius: 10px;
-    width: 115px;
-    padding: 6px;
-    font-size: 20px;
-    font-weight: 600;
-    color: $font-color;
-    margin: 2px;
-    list-style: none;
-    text-align:  center;
-    font-weight: 600;
+    &__link {
+      background-color: $text-field-bg;
+      border-radius: 10px;
+      width: 300px;
+      padding: 4px;
+      font-size: 25px;
+      font-weight: 600;
+      color: $font-color;
+      list-style: none;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px;
+      cursor: pointer;
+    }
   }
-}
-
-.testimonials {
-  flex-direction: column;
-  margin: auto;
-  width: 70%;
-
-  &__titles {
-  color: $title-color;
-  }
-  &__collection{
-    flex-direction:row;
-  }
-  &__group {
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width:450px;
-    height: 240px;
-  }
-
-  &__group-img {
-    width: 200px;
-    height: 230px;
-    border-radius: 10px;
-    margin-top:5px;
-  }
-
-  &__group__text {
-    padding: -10px 0px 0px 10px;
-  }
-
-  &__group__text-quote {
-    font-size:14px;
-    padding-bottom:5px;
-  }
-
-  &__group__text-author {
-    font-size: 14px;
-  }
-}
-
-.footer {
-  display: flex;
-  font-family: $profile-font;
-  margin: auto;
-  width: 95%;
-  margin: 30px;
-  justify-content: center;
-
-  &__link {
-    background-color: $text-field-bg;
-    border-radius: 10px;
-    width: 300px;
-    padding: 4px;
-    font-size: 25px;
-    font-weight: 600;
-    color: $font-color;
-    list-style: none;
-    text-align:  center;
-    text-decoration: none;
-    margin: 5px;
-    cursor: pointer;
-  }
- }
 }
