@@ -145,7 +145,7 @@ body {
 @media (min-width: 768px) {
   .profile {
     font-family: $profile-font;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ body {
   .testimonials {
     flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 75%;
     margin-bottom:40px;
 
     &__titles {
@@ -202,7 +202,6 @@ body {
       display: flex;
       margin: 0 auto;
       margin-bottom: 30px;
-      width: 600px;
     }
 
     &__group-img {
@@ -250,7 +249,7 @@ body {
 @media (min-width: 1200px) {
   .profile {
     font-family: $profile-font;
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -295,7 +294,7 @@ body {
   .testimonials {
     flex-direction: column;
     margin: 0 auto;
-    width: 75%;
+    width: 60%;
 
     &__titles {
       color: $title-color;
@@ -360,7 +359,7 @@ body {
 @media (min-width: 1400px) {
   .profile {
     font-family: $profile-font;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     flex-direction: column;
     margin-bottom: 10px;
@@ -404,7 +403,7 @@ body {
   .testimonials {
     flex-direction: column;
     margin: auto;
-    width: 70%;
+    width: 60%;
 
     &__titles {
       color: $title-color;

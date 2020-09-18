@@ -164,7 +164,7 @@ body {
 @media (min-width: 768px) {
   .profile {
     font-family: "Work Sans", sans-serif;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,7 +218,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: auto;
-    width: 80%;
+    width: 75%;
     margin-bottom: 40px;
   }
   .testimonials__titles {
@@ -231,7 +231,6 @@ body {
     display: flex;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 600px;
   }
   .testimonials__group-img {
     padding-bottom: 5px;
@@ -276,7 +275,7 @@ body {
 @media (min-width: 1200px) {
   .profile {
     font-family: "Work Sans", sans-serif;
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -330,7 +329,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 auto;
-    width: 75%;
+    width: 60%;
   }
   .testimonials__titles {
     color: #2a3132;
@@ -397,7 +396,7 @@ body {
 @media (min-width: 1400px) {
   .profile {
     font-family: "Work Sans", sans-serif;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -448,7 +447,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: auto;
-    width: 70%;
+    width: 60%;
   }
   .testimonials__titles {
     color: #2a3132;
