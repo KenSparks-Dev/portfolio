@@ -147,7 +147,7 @@ body {
 @media (min-width: 1440px) {
   .landing-page {
     background-position-y: -190px;
-    height: 100vh;
+    height: 1000px;
     margin: 0px;
     width: 100%;
   }
@@ -161,7 +161,7 @@ body {
     padding-bottom: 60px;
   }
   .landing-page__text__subtitle {
-    font-size: 3.5em;
+    font-size: 3.2em;
     text-shadow: 2px 5px black;
   }
 }
