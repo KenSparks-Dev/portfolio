@@ -116,7 +116,7 @@ body {
 
 @media (min-width: 1280px) {
   .landing-page {
-    background-position-y: -290px;
+    background-position-y: -400px;
     height: 700px;
   }
   .landing-page__li a {
@@ -140,8 +140,8 @@ body {
 
 @media (min-width: 1440px) {
   .landing-page {
-    background-position-y: -650px;
-    height: 100vh;
+    background-position-y: -350px;
+    height: 1000px;
   }
   .landing-page__text {
     padding-top: 690px;
