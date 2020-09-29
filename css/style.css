@@ -1,21 +1,4 @@
 /*SCSS list*/
-@media (min-width: 1400px) {
-  __img {
-    margin-top: 10px;
-  }
-  __img a img {
-    width: 540px;
-    height: 440px;
-  }
-  __text {
-    font-size: 40px;
-    padding-right: 40px;
-  }
-  __skills-list {
-    font-size: 30px;
-  }
-}
-
 /*SCSS list*/
 .project-hub {
   display: -webkit-box;
@@ -221,6 +204,12 @@
 }
 
 .project:nth-child(6) {
+  background-color: #502050;
+  font-family: "Karla", "Spartan", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(7) {
   background-color: #FD714F;
   font-family: "Work Sans", sans-serif;
   color: #fff;
