@@ -89,6 +89,12 @@
   margin-bottom: 10px;
 }
 
+.project .project:nth-child(7)__img a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media (min-width: 768px) {
   .project {
     -webkit-box-orient: vertical;
