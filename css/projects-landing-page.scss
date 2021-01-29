@@ -1,10 +1,10 @@
 $lp-bg-color: #000;
 $lp-title-color: #fff;
-$marker-font:  'Permanent Marker', cursive;
+$marker-font: 'Permanent Marker', cursive;
 
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 .landing-page {
   display: flex;
   background: $lp-bg-color;
-  background-image: url(../images/me2.jpg);
+  background-image: url(/images/me2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,21 +23,21 @@ body {
   flex-direction: column;
 
   &__ul {
-  display:flex;
-  justify-content: flex-end;
-  list-style: none;
-}
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
 
   &__li a {
-    display:inline-block;
-    text-decoration:  none;
+    display: inline-block;
+    text-decoration: none;
     color: $lp-title-color;
     font-size: 20px;
     padding: 10px;
     font-family: $marker-font;
     cursor: pointer;
     text-shadow: 4px 2px black;
-}
+  }
 
   &__text {
     margin: auto;
@@ -59,13 +59,13 @@ body {
     display: none;
     text-decoration: none;
     border: 1px #fff;
-    color:#fff;
+    color: #fff;
     border-radius: 20px;
     padding: 2px;
   }
 }
 
-@media(min-width: 768px)  {
+@media (min-width: 768px) {
   .landing-page {
     height: 580px;
     background-position-y: -50px;
@@ -83,7 +83,7 @@ body {
     &__text__title {
       font-size: 4.5em;
       text-shadow: 6px 4px black;
-      padding-bottom:20px
+      padding-bottom: 20px;
     }
 
     &__text__subtitle {
@@ -93,11 +93,10 @@ body {
   }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .landing-page {
     height: 750px;
     background-position-y: -190px;
-
 
     &__text {
       padding-top: 500px;
@@ -117,7 +116,7 @@ body {
   }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
   .landing-page {
     background-position-y: -400px;
     height: 700px;
@@ -135,17 +134,17 @@ body {
     &__text__title {
       font-size: 6.5em;
       text-shadow: 6px 4px black;
-      padding-bottom:20px;
+      padding-bottom: 20px;
     }
 
-    &__text__subtitle  {
+    &__text__subtitle {
       font-size: 1.65em;
       text-shadow: 2px 5px black;
     }
   }
 }
 
-@media(min-width:  1440px) {
+@media (min-width: 1440px) {
   .landing-page {
     background-position-y: -350px;
     height: 1000px;
@@ -155,13 +154,13 @@ body {
       text-shadow: 4px 2px black;
     }
 
-    &__text__title  {
+    &__text__title {
       font-size: 7.5em;
       text-shadow: 6px 4px black;
       padding-bottom: 60px;
     }
 
-    &__text__subtitle  {
+    &__text__subtitle {
       font-size: 3.5em;
       text-shadow: 2px 5px black;
     }
