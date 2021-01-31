@@ -1966,6 +1966,7 @@ body {
 }
 .project__img {
   padding-top: 20px;
+  transition: 390ms;
 }
 .project__img a img {
   width: 310px;
@@ -1973,6 +1974,9 @@ body {
   border-radius: 20px;
   display: block;
   margin: auto;
+}
+.project__img:hover {
+  transform: scale(1.1);
 }
 .project__text {
   text-align: center;

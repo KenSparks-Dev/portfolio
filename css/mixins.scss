@@ -6,6 +6,8 @@
 
   &__img {
     padding-top: 20px;
+    transition:390ms;
+
   }
 
   &__img a img {
@@ -14,6 +16,10 @@
     border-radius: 20px;
     display: block;
     margin: auto;
+  }
+
+  &__img:hover{
+    transform:scale(1.1);
   }
 
   &__text {
