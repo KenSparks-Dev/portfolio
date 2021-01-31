@@ -37,16 +37,11 @@ body {
 .landing-page__text {
   margin: auto;
   font-family: "Permanent Marker", cursive;
-  padding-top: 260px;
-  line-height: 35px;
+  padding-top: 240px;
 }
 .landing-page__text__title {
   font-size: 3em;
   text-shadow: 4px 2px black;
-}
-.landing-page__text__subtitle {
-  font-size: 1em;
-  text-shadow: 3px 2px black;
 }
 .landing-page__text__resume-link {
   display: none;
@@ -297,7 +292,7 @@ body {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #f56;
 }
 
 .profile {
@@ -2227,44 +2222,44 @@ body {
 }
 
 .project:nth-child(1) {
-  background-color: #cf3b49;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-
-.project:nth-child(2) {
-  background-color: #6b2b77;
-  font-family: "Open Sans", sans-serif;
-  color: #ffffff;
-}
-
-.project:nth-child(3) {
-  background-color: #4f7df3;
-  font-family: "Libre Franklin", sans-serif;
-  color: #fff;
-}
-
-.project:nth-child(4) {
-  background-color: #4c4e61;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-}
-
-.project:nth-child(5) {
-  background-color: #31b2af;
-  font-family: "Karla", sans-serif;
-  color: #fff;
-}
-
-.project:nth-child(6) {
   background-color: #fff;
   font-family: "Syne", sans-serif;
   color: #000;
 }
 
-.project:nth-child(7) {
+.project:nth-child(2) {
   background-color: #4c40e0;
   font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(3) {
+  background-color: #cf3b49;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(4) {
+  background-color: #6b2b77;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.project:nth-child(5) {
+  background-color: #4f7df3;
+  font-family: "Libre Franklin", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(6) {
+  background-color: #4c4e61;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.project:nth-child(7) {
+  background-color: #31b2af;
+  font-family: "Karla", sans-serif;
   color: #fff;
 }
 

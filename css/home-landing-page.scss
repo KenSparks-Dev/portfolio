@@ -41,18 +41,12 @@ body {
   &__text {
     margin: auto;
     font-family: $marker-font;
-    padding-top: 260px;
-    line-height: 35px;
+    padding-top: 240px;
   }
 
   &__text__title {
     font-size: 3em;
     text-shadow: 4px 2px black;
-  }
-
-  &__text__subtitle {
-    font-size: 1em;
-    text-shadow: 3px 2px black;
   }
 
   &__text__resume-link {
