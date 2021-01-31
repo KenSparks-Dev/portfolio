@@ -2002,6 +2002,14 @@ body {
 .project__footer__btn-group a {
   padding: 10px;
 }
+.project__footer__btn-group a img {
+  padding: 10px;
+  transition: 300ms;
+}
+.project__footer__btn-group a img:hover {
+  padding: 10px;
+  transform: scale(1.3);
+}
 .project__btn-group__footer-title {
   font-size: 24px;
   text-align: center;
