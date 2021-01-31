@@ -22,7 +22,14 @@
   }
 
   &__skills-list {
+    margin-top:10px;
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 110px);
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
   }
 
   &__footer {
@@ -68,7 +75,6 @@
       padding-left: 15px;
 
       &__skills-list {
-        display: flex;
         font-size: 12px;
       }
     }
@@ -98,6 +104,9 @@
 
     &__skills-list {
       font-size: 24px;
+      margin-top:15px;
+      grid-template-columns:repeat(2, 160px);
+      gap:15px;
     }
 
     &__footer a {
@@ -141,6 +150,9 @@
 
     &__skills-list {
       font-size: 30px;
+      margin-top:15px;
+      grid-template-columns:repeat(2, 190px);
+      gap:15px;
     }
   }
 }
