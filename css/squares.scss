@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables.scss';
 
 @mixin square {
   position: fixed;
@@ -9,7 +9,7 @@
   opacity: 0.7;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -88,11 +88,10 @@ body{
     transform: rotate(30deg);
     width: 150px;
     height: 150px;
-    
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .shapes {
     &__square {
       @include square;
@@ -104,7 +103,7 @@ body{
       width: 55px;
       height: 55px;
     }
-  
+
     &__square:nth-child(2) {
       top: 300px;
       left: 745px;
@@ -113,7 +112,7 @@ body{
       background-color: $springgreen-shapes;
       transform: rotate(50deg);
     }
-  
+
     &__square:nth-child(3) {
       background-color: $coral-shapes;
       top: 580px;
@@ -122,7 +121,7 @@ body{
       width: 50px;
       height: 50px;
     }
-  
+
     &__square:nth-child(4) {
       background-color: $cyan-shapes;
       top: 495px;
@@ -131,7 +130,7 @@ body{
       height: 50px;
       transform: rotate(5deg);
     }
-  
+
     &__square:nth-child(5) {
       background-color: $springgreen-shapes;
       transform: rotate(15deg);
@@ -140,7 +139,7 @@ body{
       width: 150px;
       height: 150px;
     }
-  
+
     &__square:nth-child(6) {
       background-color: $coral-shapes;
       top: 430px;
@@ -151,28 +150,28 @@ body{
     }
 
     &__square:nth-child(7) {
-      background-color:$cyan-shapes;
+      background-color: $cyan-shapes;
       top: 705px;
       left: 450px;
       width: 155px;
       height: 155px;
       transform: rotate(15deg);
     }
-  
+
     &__square:nth-child(8) {
-      background-color:$springgreen-shapes;
+      background-color: $springgreen-shapes;
       transform: rotate(15deg);
       width: 55px;
       height: 55px;
       top: 350px;
       left: 245px;
     }
-  
+
     &__square:nth-child(9) {
-      background-color:$coral-shapes;
+      background-color: $coral-shapes;
       top: 540px;
       left: 320px;
-      transform:  rotate(30deg);
+      transform: rotate(30deg);
       width: 50px;
       height: 50px;
     }
@@ -185,15 +184,14 @@ body{
       @include square;
     }
     &__square:nth-child(1) {
-      background-color:$cyan-shapes;
+      background-color: $cyan-shapes;
       top: 1155px;
       left: 990px;
       width: 155px;
       height: 155px;
     }
-  
+
     &__square:nth-child(2) {
-      
       width: 75px;
       height: 75px;
       background-color: $springgreen-shapes;
@@ -201,16 +199,16 @@ body{
       top: 1250px;
       left: 500px;
     }
-  
+
     &__square:nth-child(3) {
       background-color: $coral-shapes;
       top: 800px;
       left: -15px;
       transform: rotate(30deg);
       width: 150px;
-      height: 150px; 
+      height: 150px;
     }
-  
+
     &__square:nth-child(4) {
       background-color: $cyan-shapes;
       top: 585px;
@@ -219,14 +217,14 @@ body{
       height: 200px;
       transform: rotate(5deg);
     }
-  
+
     &__square:nth-child(5) {
-      background-color:$springgreen-shapes;
+      background-color: $springgreen-shapes;
       transform: rotate(15deg);
       top: 940px;
       left: 845px;
     }
-  
+
     &__square:nth-child(6) {
       background-color: $coral-shapes;
       top: 30px;
@@ -244,7 +242,7 @@ body{
       height: 155px;
       transform: rotate(15deg);
     }
-  
+
     &__square:nth-child(8) {
       background-color: $springgreen-shapes;
       transform: rotate(15deg);
@@ -253,12 +251,12 @@ body{
       top: 300px;
       left: 45px;
     }
-  
+
     &__square:nth-child(9) {
       background-color: $coral-shapes;
       top: 540px;
       left: 1320px;
-      transform:  rotate(30deg);
+      transform: rotate(30deg);
       width: 150px;
       height: 150px;
     }
@@ -278,7 +276,7 @@ body{
       width: 155px;
       height: 155px;
     }
-  
+
     &__square:nth-child(2) {
       top: 360px;
       left: 145px;
@@ -287,7 +285,7 @@ body{
       background-color: $springgreen-shapes;
       transform: rotate(50deg);
     }
-  
+
     &__square:nth-child(3) {
       background-color: $coral-shapes;
       top: 450px;
@@ -296,7 +294,7 @@ body{
       width: 150px;
       height: 150px;
     }
-  
+
     &__square:nth-child(4) {
       background-color: $cyan-shapes;
       top: 205px;
@@ -305,14 +303,14 @@ body{
       height: 120px;
       transform: rotate(5deg);
     }
-  
+
     &__square:nth-child(5) {
       background-color: $springgreen-shapes;
       transform: rotate(15deg);
       top: 250px;
       left: 1345px;
     }
-  
+
     &__square:nth-child(6) {
       background-color: $coral-shapes;
       top: 430px;
@@ -330,16 +328,16 @@ body{
       height: 100px;
       transform: rotate(15deg);
     }
-  
+
     &__square:nth-child(8) {
       background-color: $springgreen-shapes;
-      transform:  rotate(15deg);
+      transform: rotate(15deg);
       width: 55px;
       height: 55px;
       top: 610px;
       left: 1145px;
     }
-  
+
     &__square:nth-child(9) {
       background-color: $coral-shapes;
       top: 540px;
@@ -351,20 +349,19 @@ body{
   }
 }
 
-
 @media (min-width: 1400px) {
   .shapes {
     &__square {
       @include square;
     }
     &__square:nth-child(1) {
-      background-color:$cyan-shapes;
+      background-color: $cyan-shapes;
       top: 55px;
       left: 1150px;
       width: 55px;
       height: 55px;
     }
-  
+
     &__square:nth-child(2) {
       top: 300px;
       left: 1245px;
@@ -373,7 +370,7 @@ body{
       background-color: $springgreen-shapes;
       transform: rotate(50deg);
     }
-  
+
     &__square:nth-child(3) {
       background-color: $coral-shapes;
       top: 580px;
@@ -382,7 +379,7 @@ body{
       width: 150px;
       height: 150px;
     }
-  
+
     &__square:nth-child(4) {
       background-color: $cyan-shapes;
       top: 205px;
@@ -391,19 +388,19 @@ body{
       height: 200px;
       transform: rotate(5deg);
     }
-  
+
     &__square:nth-child(5) {
       background-color: $springgreen-shapes;
       transform: rotate(15deg);
       top: 1050px;
       left: 1545px;
     }
-  
+
     &__square:nth-child(6) {
       background-color: $coral-shapes;
       top: 30px;
       left: 1275px;
-      transform:  rotate(30deg);
+      transform: rotate(30deg);
       width: 150px;
       height: 150px;
     }
@@ -425,7 +422,7 @@ body{
       top: 150px;
       left: 1445px;
     }
-  
+
     &__square:nth-child(9) {
       background-color: $coral-shapes;
       top: 40px;

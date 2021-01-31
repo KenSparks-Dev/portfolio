@@ -1,0 +1,36 @@
+$client-bg-color: #000;
+$client-title-color: #fff;
+$client-font: 'Permanent Marker', cursive;
+$profile-font: 'Work Sans', sans-serif;
+
+@import './css/mixins.scss';
+@import './css/variables.scss';
+@import './css/home-landing-page.scss';
+@import './css/profile.scss';
+@import './css/contact-form.scss';
+
+.project-hub {
+  @include project-hub-styles;
+}
+
+.project {
+  @include project-styles;
+}
+
+@for $i from 1 through length($bg-colors) {
+  .project {
+    &:nth-child(#{$i}) {
+      background-color: nth($bg-colors, $i);
+      font-family: nth($fonts, $i);
+      color: nth($font-colors, $i);
+    }
+  }
+}
+
+.clientprojects {
+  background-color: $client-bg-color;
+  color: $client-title-color;
+  font-family: $client-font;
+  text-align: center;
+  font-size: 1.2em;
+}

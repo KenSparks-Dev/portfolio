@@ -1,11 +1,13 @@
-@import "variables";
+@import 'variables.scss';
 
 @mixin project-styles {
   display: flex;
-  flex-direction:  column;
+  flex-direction: column;
 
   &__img {
-    padding-top: 20px
+    padding-top: 20px;
+    transition:390ms;
+
   }
 
   &__img a img {
@@ -16,46 +18,70 @@
     margin: auto;
   }
 
+  &__img:hover{
+    transform:scale(1.1);
+  }
+
   &__text {
     text-align: center;
-    padding:20px 0px;
+    padding: 20px 0px;
   }
 
   &__skills-list {
+    margin-top:10px;
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 110px);
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
   }
 
   &__footer {
-  display:flex;
-  margin: auto;
-  padding:20px 0px;
-  flex-direction: column;
+    display: flex;
+    margin: auto;
+    padding: 20px 0px;
+    flex-direction: column;
   }
 
   &__footer__btn-group {
-    margin:auto;
-    padding-bottom:10px;
+    margin: auto;
+    padding-bottom: 10px;
   }
+
   &__footer__btn-group a {
-    padding:10px;
+    padding: 10px;
   }
 
+  &__footer__btn-group a img {
+    padding: 10px;
+    transition:300ms;
+  }
+
+  &__footer__btn-group a img:hover {
+    padding: 10px;
+    transform: scale(1.3)
+  }
+  
   &__btn-group__footer-title {
-    font-size:24px;
-    text-align:center;
-    background-color:$text-field-bg;
+    font-size: 24px;
+    text-align: center;
+    background-color: $text-field-bg;
     border-radius: 5px;
-    padding:4px;
-    font-weight:600;
-    margin-bottom:10px;
+    padding: 4px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
- @media(min-width: 768px) {
-    flex-direction:column;
-    width:50%;
+  
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    width: 50%;
 
     &__img {
-      margin-top:5px;
+      margin-top: 5px;
     }
 
     &__img a img {
@@ -64,31 +90,29 @@
     }
 
     &__text {
-      font-size:16px;
-      padding-left:15px;
+      font-size: 16px;
+      padding-left: 15px;
 
-    &__skills-list {
-      display:flex;
-      font-size:12px;
+      &__skills-list {
+        font-size: 12px;
+      }
+    }
+
+    &__footer a {
+      font-size: 26px;
     }
   }
 
-  &__footer a {
-    font-size:26px;
-  }
- }
-
-  @media(min-width: 1024px) {
-
+  @media (min-width: 1024px) {
     &__img {
-      margin-top:10px;
+      margin-top: 10px;
     }
 
     &__img a img {
       width: 440px;
       height: 340px;
     }
-    
+
     &__title {
       font-size: 44px;
     }
@@ -99,6 +123,9 @@
 
     &__skills-list {
       font-size: 24px;
+      margin-top:15px;
+      grid-template-columns:repeat(2, 160px);
+      gap:15px;
     }
 
     &__footer a {
@@ -115,9 +142,8 @@
       padding: 25px;
     }
 
-
     &__footer__btn-group a img {
-      width: 96px
+      width: 96px;
     }
 
     &__btn-group__footer-title {
@@ -126,26 +152,28 @@
     }
   }
 
-@media(min-width: 1280px) {
+  @media (min-width: 1280px) {
+    &__img {
+      margin-top: 30px;
+    }
 
-  &__img {
-    margin-top: 30px;
-  }
+    &__img a img {
+      width: 440px;
+      height: 340px;
+    }
 
-  &__img a img {
-    width: 440px;
-    height: 340px;
-  }
+    &__text {
+      font-size: 40px;
+      padding-right: 40px;
+    }
 
-  &__text {
-    font-size: 40px;
-    padding-right: 40px;
+    &__skills-list {
+      font-size: 30px;
+      margin-top:15px;
+      grid-template-columns:repeat(2, 190px);
+      gap:15px;
+    }
   }
-
-  &__skills-list {
-    font-size: 30px;
-  }
-}
 }
 
 @mixin project-hub-styles {
@@ -156,7 +184,7 @@
     flex: 1;
   }
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
   }

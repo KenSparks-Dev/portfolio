@@ -1,10 +1,10 @@
 $lp-bg-color: #000;
 $lp-title-color: #fff;
-$marker-font:  'Permanent Marker', cursive;
+$marker-font: 'Permanent Marker', cursive;
 
 * {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 body {
@@ -14,18 +14,18 @@ body {
 .landing-page {
   display: flex;
   background: $lp-bg-color;
-  background-image: url(../images/me3.jpg);
+  background-image: url(/images/me3.jpg);
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   height: 400px;
   color: $lp-title-color;
   flex-direction: column;
 
   &__ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-}
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
 
   &__li a {
     display: inline-block;
@@ -36,23 +36,17 @@ body {
     font-family: $marker-font;
     cursor: pointer;
     text-shadow: 4px 2px black;
-}
+  }
 
   &__text {
     margin: auto;
     font-family: $marker-font;
-    padding-top: 260px;
-    line-height: 35px;
+    padding-top: 240px;
   }
 
   &__text__title {
     font-size: 3em;
     text-shadow: 4px 2px black;
-  }
-
-  &__text__subtitle {
-    font-size: 1em;
-    text-shadow: 3px 2px black;
   }
 
   &__text__resume-link {
@@ -65,14 +59,14 @@ body {
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .landing-page {
     height: 580px;
     background-position-y: -50px;
     margin: 0 auto;
     margin: 15px;
 
-    &__li a{
+    &__li a {
       font-size: 30px;
       padding: 18px;
     }
@@ -82,7 +76,7 @@ body {
       text-shadow: 4px 2px black;
     }
 
-    &__text__title  {
+    &__text__title {
       font-size: 4.5em;
       text-shadow: 6px 4px black;
       padding-bottom: 20px;
@@ -95,7 +89,7 @@ body {
   }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .landing-page {
     height: 750px;
     background-position-y: -90px;
@@ -107,7 +101,7 @@ body {
       text-shadow: 4px 2px black;
     }
 
-    &__text__title  {
+    &__text__title {
       font-size: 5em;
       text-shadow: 6px 4px black;
       padding-bottom: 20px;
@@ -120,7 +114,7 @@ body {
   }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
   .landing-page {
     background-position-y: -90px;
     height: 700px;
@@ -139,8 +133,8 @@ body {
 
     &__text__title {
       font-size: 6.5em;
-      text-shadow:  6px 4px black;
-      padding-bottom:20px;
+      text-shadow: 6px 4px black;
+      padding-bottom: 20px;
     }
 
     &__text__subtitle {
@@ -150,7 +144,7 @@ body {
   }
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .landing-page {
     background-position-y: -190px;
     height: 1000px;
@@ -162,13 +156,13 @@ body {
       text-shadow: 4px 2px black;
     }
 
-    &__text__title  {
+    &__text__title {
       font-size: 7.5em;
       text-shadow: 6px 4px black;
-      padding-bottom:60px;
+      padding-bottom: 60px;
     }
 
-    &__text__subtitle  {
+    &__text__subtitle {
       font-size: 3.2em;
       text-shadow: 2px 5px black;
     }

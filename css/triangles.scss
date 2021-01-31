@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables.scss';
 
 @mixin triangle {
   position: fixed;
@@ -6,10 +6,10 @@
   height: 0;
   z-index: -1;
   border-radius: 5px;
-  opacity:0.7;
+  opacity: 0.7;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ body{
   &__triangle {
     @include triangle;
   }
-  
+
   &__triangle:nth-child(1) {
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
@@ -25,7 +25,7 @@ body{
     top: 305px;
     left: 30px;
   }
-  
+
   &__triangle:nth-child(2) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -34,7 +34,7 @@ body{
     top: 1200px;
     left: 245px;
   }
-  
+
   &__triangle:nth-child(3) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
@@ -51,7 +51,7 @@ body{
     top: 75px;
     left: 350px;
   }
-  
+
   &__triangle:nth-child(5) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -60,7 +60,7 @@ body{
     top: 34px;
     left: 145px;
   }
-  
+
   &__triangle:nth-child(6) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
@@ -69,7 +69,7 @@ body{
     left: 125px;
     transform: rotate(15deg);
   }
-  
+
   &__triangle:nth-child(7) {
     border-top: 50px solid $coral-shapes;
     border-left: 50px solid transparent;
@@ -77,7 +77,7 @@ body{
     top: 205px;
     left: 450px;
   }
-  
+
   &__triangle:nth-child(8) {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -86,7 +86,7 @@ body{
     top: 600px;
     left: 45px;
   }
-  
+
   &__triangle:nth-child(9) {
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
@@ -97,7 +97,7 @@ body{
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .shapes {
     &__triangle {
       @include triangle;
@@ -110,7 +110,7 @@ body{
       top: 505px;
       left: 680px;
     }
-    
+
     &__triangle:nth-child(2) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
@@ -119,7 +119,7 @@ body{
       top: 300px;
       left: 145px;
     }
-    
+
     &__triangle:nth-child(3) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -128,7 +128,7 @@ body{
       left: 975px;
       transform: rotate(15deg);
     }
-  
+
     &__triangle:nth-child(4) {
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
@@ -136,7 +136,7 @@ body{
       top: 205px;
       left: 890px;
     }
-    
+
     &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -145,7 +145,7 @@ body{
       top: 90px;
       left: -100px;
     }
-    
+
     &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -162,7 +162,7 @@ body{
       top: 305px;
       left: 950px;
     }
-    
+
     &__triangle:nth-child(8) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
@@ -171,7 +171,7 @@ body{
       top: 777px;
       left: 45px;
     }
-    
+
     &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -179,7 +179,7 @@ body{
       top: 340px;
       left: 1120px;
     }
- }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -194,9 +194,8 @@ body{
       border-right: 50px solid transparent;
       top: 1105px;
       left: 680px;
-      
     }
-    
+
     &__triangle:nth-child(2) {
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
@@ -205,7 +204,7 @@ body{
       top: 1250px;
       left: 5px;
     }
-    
+
     &__triangle:nth-child(3) {
       border-left: 145px solid transparent;
       border-right: 145px solid transparent;
@@ -214,7 +213,7 @@ body{
       left: 825px;
       transform: rotate(95deg);
     }
-  
+
     &__triangle:nth-child(4) {
       border-top: 50px solid $coral-shapes;
       border-left: 50px solid transparent;
@@ -222,7 +221,7 @@ body{
       top: 775px;
       left: 890px;
     }
-    
+
     &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -231,7 +230,7 @@ body{
       top: 30px;
       left: 250px;
     }
-    
+
     &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -248,7 +247,7 @@ body{
       top: 1005px;
       left: 90px;
     }
-    
+
     &__triangle:nth-child(8) {
       border-left: 40px solid transparent;
       border-right: 40px solid transparent;
@@ -257,7 +256,7 @@ body{
       top: 777px;
       left: 445px;
     }
-    
+
     &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -265,7 +264,7 @@ body{
       top: 590px;
       left: 720px;
     }
- }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -281,7 +280,7 @@ body{
       top: 55px;
       left: 980px;
     }
-    
+
     &__triangle:nth-child(2) {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
@@ -290,7 +289,7 @@ body{
       top: 300px;
       left: 145px;
     }
-    
+
     &__triangle:nth-child(3) {
       border-left: 95px solid transparent;
       border-right: 95px solid transparent;
@@ -299,7 +298,7 @@ body{
       left: 945px;
       transform: rotate(15deg);
     }
-  
+
     &__triangle:nth-child(4) {
       border-top: 190px solid $coral-shapes;
       border-left: 190px solid transparent;
@@ -307,7 +306,7 @@ body{
       top: 425px;
       left: 370px;
     }
-    
+
     &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -316,7 +315,7 @@ body{
       top: 150px;
       left: 100px;
     }
-    
+
     &__triangle:nth-child(6) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -333,7 +332,7 @@ body{
       top: 305px;
       left: 950px;
     }
-    
+
     &__triangle:nth-child(8) {
       border-left: 40px solid transparent;
       border-right: 40px solid transparent;
@@ -342,7 +341,7 @@ body{
       top: 140px;
       left: 345px;
     }
-    
+
     &__triangle:nth-child(9) {
       border-left: 45px solid transparent;
       border-right: 45px solid transparent;
@@ -350,7 +349,7 @@ body{
       top: 340px;
       left: 1120px;
     }
- }
+  }
 }
 
 @media (min-width: 1400px) {
@@ -366,7 +365,7 @@ body{
       top: 355px;
       left: 380px;
     }
-    
+
     &__triangle:nth-child(2) {
       border-left: 130px solid transparent;
       border-right: 130px solid transparent;
@@ -375,7 +374,7 @@ body{
       top: 900px;
       left: 1345px;
     }
-    
+
     &__triangle:nth-child(3) {
       border-left: 145px solid transparent;
       border-right: 145px solid transparent;
@@ -384,7 +383,7 @@ body{
       left: 775px;
       transform: rotate(15deg);
     }
-  
+
     &__triangle:nth-child(4) {
       border-top: 150px solid $coral-shapes;
       border-left: 150px solid transparent;
@@ -392,7 +391,7 @@ body{
       top: 705px;
       left: 1090px;
     }
-    
+
     &__triangle:nth-child(5) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -401,7 +400,7 @@ body{
       top: 850px;
       left: 100px;
     }
-    
+
     &__triangle:nth-child(6) {
       border-left: 130px solid transparent;
       border-right: 130px solid transparent;
@@ -418,7 +417,7 @@ body{
       top: 605px;
       left: 0px;
     }
-    
+
     &__triangle:nth-child(8) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -427,7 +426,7 @@ body{
       top: 477px;
       left: 645px;
     }
-    
+
     &__triangle:nth-child(9) {
       border-left: 150px solid transparent;
       border-right: 150px solid transparent;
@@ -435,5 +434,5 @@ body{
       top: 840px;
       left: 1620px;
     }
- }
+  }
 }
