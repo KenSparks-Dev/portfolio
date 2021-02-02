@@ -33,8 +33,16 @@ body {
     color: $font-color;
     background-color: $text-field-bg;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 500;
+    margin-bottom:10px;
+    opacity: 1;
+    text-align:center;
+  }
+  &__textfield p{
+    margin-bottom:15px;
+    line-height: 30px;
+    
   }
   &__textfield a {
     text-decoration: none;
@@ -44,12 +52,14 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
-  &__skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 0px;
-  }
+   &__skills {
+      display:grid;
+      grid-template-columns:repeat(4, 1fr);
+      grid-gap:5px;
+      margin:0 auto;
+      margin-bottom: 5px;
+      align-items: baseline;
+    }
 
   &__skills-item {
     background-color: $text-field-bg;
@@ -158,26 +168,23 @@ body {
 
     &__textfield {
       font-size: 20px;
-      color: $font-color;
-      background-color: $text-field-bg;
       padding: 10px;
-      border-radius: 20px;
       font-weight: 400;
     }
 
     &__skills {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
+      display:grid;
+      grid-template-columns:repeat(4, 1fr);
+      grid-gap:15px;
       margin-bottom: 5px;
     }
 
     &__skills-item {
       background-color: $text-field-bg;
       border-radius: 10px;
-      width: 95px;
+      width: 110px;
       padding: 6px;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 600;
       color: $font-color;
       margin: 2px;
@@ -262,18 +269,23 @@ body {
 
     &__textfield {
       font-size: 24px;
-      color: $font-color;
-      background-color: $text-field-bg;
       padding: 10px;
-      border-radius: 20px;
       font-weight: 500;
     }
 
+    &__textfield p{
+    margin-bottom:15px;
+    line-height: 40px;
+    
+  }
     &__skills {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      margin-bottom: 5px;
+      display:grid;
+      font-size:20px;
+      grid-template-columns:repeat(6, 1fr);
+      margin-bottom: 10px;
+      row-gap: 5px;
+      grid-gap:5px;
+      
     }
 
     &__skills-item {
@@ -371,18 +383,16 @@ body {
 
     &__textfield {
       font-size: 24px;
-      color: $font-color;
-      background-color: $text-field-bg;
-      padding: 10px;
-      border-radius: 20px;
       font-weight: 500;
     }
 
     &__skills {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      margin-bottom: 20px;
+      display:grid;
+      grid-template-columns:repeat(6, 100px);
+      margin-bottom: 10px;
+      grid-gap:45px;
+      row-gap: 16px;
+      font-size:28px;
     }
 
     &__skills-item {

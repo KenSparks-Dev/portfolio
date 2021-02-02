@@ -168,8 +168,15 @@ body {
   color: #fff;
   background-color: #375397;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 500;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.profile__textfield p {
+  margin-bottom: 15px;
+  line-height: 30px;
 }
 .profile__textfield a {
   text-decoration: none;
@@ -180,10 +187,12 @@ body {
   font-weight: bold;
 }
 .profile__skills {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  align-items: baseline;
 }
 .profile__skills-item {
   background-color: #375397;
@@ -281,24 +290,21 @@ body {
   }
   .profile__textfield {
     font-size: 20px;
-    color: #fff;
-    background-color: #375397;
     padding: 10px;
-    border-radius: 20px;
     font-weight: 400;
   }
   .profile__skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
     margin-bottom: 5px;
   }
   .profile__skills-item {
     background-color: #375397;
     border-radius: 10px;
-    width: 95px;
+    width: 110px;
     padding: 6px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     margin: 2px;
@@ -373,17 +379,20 @@ body {
   }
   .profile__textfield {
     font-size: 24px;
-    color: #fff;
-    background-color: #375397;
     padding: 10px;
-    border-radius: 20px;
     font-weight: 500;
   }
+  .profile__textfield p {
+    margin-bottom: 15px;
+    line-height: 40px;
+  }
   .profile__skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 5px;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 10px;
+    row-gap: 5px;
+    grid-gap: 5px;
   }
   .profile__skills-item {
     background-color: #375397;
@@ -469,17 +478,15 @@ body {
   }
   .profile__textfield {
     font-size: 24px;
-    color: #fff;
-    background-color: #375397;
-    padding: 10px;
-    border-radius: 20px;
     font-weight: 500;
   }
   .profile__skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    margin-bottom: 10px;
+    grid-gap: 45px;
+    row-gap: 16px;
+    font-size: 28px;
   }
   .profile__skills-item {
     background-color: #375397;
