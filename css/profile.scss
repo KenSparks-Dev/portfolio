@@ -28,7 +28,7 @@ body {
     color: $font-color;
     background-color: $text-field-bg;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: 500;
     margin-bottom:10px;
     opacity: 1;
@@ -54,6 +54,7 @@ body {
       margin-bottom: 5px;
       align-items: baseline;
     }
+
   &__skills-item {
     background-color: $text-field-bg;
     border-radius: 10px;
@@ -329,9 +330,16 @@ body {
       margin: 20px 0px;
       color: $title-color;
     }
+
     &__textfield {
       font-size: 24px;
       font-weight: 500;
+    }
+
+    &__textfield p{
+      width:90%;
+      margin: 0 auto;
+      margin-bottom:10px;
     }
     &__skills {
       display:grid;
@@ -355,6 +363,7 @@ body {
       font-weight: 600;
     }
   }
+
   .testimonials {
     flex-direction: column;
     margin: auto;

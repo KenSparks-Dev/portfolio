@@ -168,7 +168,7 @@ body {
   color: #fff;
   background-color: #375397;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   font-weight: 500;
   margin-bottom: 10px;
   opacity: 1;
@@ -479,6 +479,11 @@ body {
   .profile__textfield {
     font-size: 24px;
     font-weight: 500;
+  }
+  .profile__textfield p {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .profile__skills {
     display: grid;
