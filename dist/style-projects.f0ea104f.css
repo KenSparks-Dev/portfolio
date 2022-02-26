@@ -184,6 +184,10 @@ body {
   text-decoration: none;
   color: #f08080;
 }
+.profile__textfield a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
 .profile__skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
