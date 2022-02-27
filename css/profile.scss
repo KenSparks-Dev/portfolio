@@ -32,7 +32,8 @@ body {
     font-weight: 500;
     margin-bottom:15px;
     opacity: 1;
-    text-align:center;
+    // text-align:center;
+    text-indent: 30px;
   }
   &__textfield p{
     padding-top:10px;
@@ -46,9 +47,9 @@ body {
     color: $link-color-coral;
   }
   &__textfield a:hover {
-    text-decoration: none;
     font-weight: bold;
   }
+
    &__skills {
       display:grid;
       grid-template-columns:repeat(4, 1fr);
@@ -71,6 +72,19 @@ body {
     text-align: center;
     font-weight: 600;
   }
+  &__textfield-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style:none;
+    padding-bottom: 25px;
+  }
+  &__textfield-list li{
+    padding-top: 20px;
+  }
+  &__textfield-list li a:hover{
+    color: #ffffff;
+  }
+
 }
 .testimonials {
   width: 95%;

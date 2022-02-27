@@ -172,7 +172,7 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
   opacity: 1;
-  text-align: center;
+  text-indent: 30px;
 }
 .profile__textfield p {
   padding-top: 10px;
@@ -183,6 +183,9 @@ body {
 .profile__textfield a {
   text-decoration: none;
   color: #f08080;
+}
+.profile__textfield a:hover {
+  font-weight: bold;
 }
 .profile__skills {
   display: grid;
@@ -204,6 +207,18 @@ body {
   list-style: none;
   text-align: center;
   font-weight: 600;
+}
+.profile__textfield-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding-bottom: 25px;
+}
+.profile__textfield-list li {
+  padding-top: 20px;
+}
+.profile__textfield-list li a:hover {
+  color: #ffffff;
 }
 
 .testimonials {

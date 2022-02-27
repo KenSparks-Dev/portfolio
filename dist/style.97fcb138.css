@@ -10,7 +10,6 @@ body {
 }
 
 .landing-page {
-  position: relative;
   display: flex;
   background: #000;
   background-image: url(/me3.d859bb8d.jpg);
@@ -21,21 +20,16 @@ body {
   flex-direction: column;
 }
 .landing-page__ul {
-  width: 100%;
-  display: grid;
-  position: absolute;
-  list-style: none;
-  grid-template-columns: auto 180px;
-}
-.landing-page__nav-links {
   display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
 .landing-page__li a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 20px;
-  padding: 2px 8px;
+  padding: 10px;
   font-family: "Permanent Marker", cursive;
   cursor: pointer;
   text-shadow: 4px 2px black;
@@ -64,9 +58,6 @@ body {
     background-position-y: -50px;
     margin: 0 auto;
     margin: 15px;
-  }
-  .landing-page__ul {
-    grid-template-columns: auto repeat(2, 120px);
   }
   .landing-page__li a {
     font-size: 30px;
@@ -184,7 +175,7 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
   opacity: 1;
-  text-align: center;
+  text-indent: 30px;
 }
 .profile__textfield p {
   padding-top: 10px;
@@ -195,6 +186,9 @@ body {
 .profile__textfield a {
   text-decoration: none;
   color: #f08080;
+}
+.profile__textfield a:hover {
+  font-weight: bold;
 }
 .profile__skills {
   display: grid;
@@ -216,6 +210,18 @@ body {
   list-style: none;
   text-align: center;
   font-weight: 600;
+}
+.profile__textfield-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding-bottom: 25px;
+}
+.profile__textfield-list li {
+  padding-top: 20px;
+}
+.profile__textfield-list li a:hover {
+  color: #ffffff;
 }
 
 .testimonials {
