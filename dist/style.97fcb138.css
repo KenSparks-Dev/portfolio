@@ -175,7 +175,6 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
   opacity: 1;
-  text-align: center;
 }
 .profile__textfield p {
   padding-top: 10px;
@@ -188,7 +187,6 @@ body {
   color: #f08080;
 }
 .profile__textfield a:hover {
-  text-decoration: none;
   font-weight: bold;
 }
 .profile__skills {
@@ -211,6 +209,16 @@ body {
   list-style: none;
   text-align: center;
   font-weight: 600;
+}
+.profile__textfield-list {
+  list-style: none;
+  padding-bottom: 25px;
+}
+.profile__textfield-list li {
+  padding-top: 20px;
+}
+.profile__textfield-list li a:hover {
+  color: #ffffff;
 }
 
 .testimonials {
@@ -316,6 +324,16 @@ body {
     list-style: none;
     text-align: center;
     font-weight: 600;
+  }
+  .profile__textfield-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .profile__textfield-list li {
+    padding-top: 30px;
   }
 
   .testimonials {
@@ -491,7 +509,7 @@ body {
   }
   .profile__skills {
     display: grid;
-    grid-template-columns: repeat(6, 100px);
+    grid-template-columns: repeat(6, 1fr);
     margin-bottom: 10px;
     grid-gap: 45px;
     row-gap: 16px;
