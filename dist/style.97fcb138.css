@@ -154,6 +154,10 @@ body {
   background-color: #f56;
 }
 
+img {
+  width: 100%;
+}
+
 .profile {
   font-family: "Work Sans", sans-serif;
   width: 95%;
@@ -213,12 +217,33 @@ body {
 .profile__textfield-list {
   list-style: none;
   padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 .profile__textfield-list li {
   padding-top: 20px;
 }
-.profile__textfield-list li a:hover {
+.profile__textfield-list li a {
   color: #ffffff;
+}
+.profile__textfield-list li a p {
+  font-size: 28px;
+}
+.profile__textfield-list li a:hover {
+  color: #f08080;
+}
+.profile__textfield-list li a img {
+  width: 250px;
+  height: 150px;
+  border-radius: 5%;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 3px 3px;
+  object-fit: cover;
+}
+.profile__textfield-list li a img:hover {
+  transform: translate(5px, 2px);
+  zoom: 1.1;
 }
 
 .testimonials {
@@ -335,6 +360,13 @@ body {
   .profile__textfield-list li {
     padding-top: 30px;
   }
+  .profile__textfield-list li a img {
+    width: 170px;
+    height: 120px;
+    border-radius: 5%;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 3px 3px;
+    object-fit: cover;
+  }
 
   .testimonials {
     flex-direction: column;
@@ -429,6 +461,13 @@ body {
     text-align: center;
     font-weight: 600;
   }
+  .profile__textfield-list li a img {
+    width: 200px;
+    height: 120px;
+    border-radius: 5%;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 3px 3px;
+    object-fit: cover;
+  }
 
   .testimonials {
     flex-direction: column;
@@ -509,7 +548,7 @@ body {
   }
   .profile__skills {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-bottom: 10px;
     grid-gap: 45px;
     row-gap: 16px;
@@ -557,26 +596,16 @@ body {
   }
 
   .footer {
-    display: flex;
-    font-family: "Work Sans", sans-serif;
-    margin: auto;
-    width: 95%;
-    margin: 30px;
     justify-content: center;
   }
   .footer__link {
     background-color: #375397;
     border-radius: 10px;
-    width: 300px;
-    padding: 4px;
-    font-size: 25px;
-    font-weight: 600;
-    color: #fff;
-    list-style: none;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px;
-    cursor: pointer;
+  }
+}
+@media (min-width: 1800px) {
+  .profile__skills {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 /*SCSS list*/
