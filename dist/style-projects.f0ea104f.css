@@ -268,6 +268,7 @@ img {
   width: 90px;
   height: 90px;
   padding-top: 10px;
+  object-fit: cover;
 }
 .testimonials__group__text {
   padding-left: 5px;
@@ -461,9 +462,6 @@ img {
   .profile__textfield-list li a img {
     width: 200px;
     height: 120px;
-    border-radius: 5%;
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 3px 3px;
-    object-fit: cover;
   }
 
   .testimonials {
