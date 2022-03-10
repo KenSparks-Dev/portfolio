@@ -277,8 +277,14 @@ img {
   font-size: 14px;
   padding-bottom: 10px;
 }
+.testimonials__group__text-quote p {
+  border: none;
+  background: #375397;
+  padding-top: 10px;
+}
 .testimonials__group__text-author {
   font-size: 12px;
+  padding-top: 5px;
 }
 .testimonials a {
   text-decoration: none;

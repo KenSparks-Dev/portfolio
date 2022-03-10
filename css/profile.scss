@@ -144,8 +144,15 @@ img {
 		font-size: 14px;
 		padding-bottom: 10px;
 	}
+
+	&__group__text-quote p {
+		border: none;
+		background: $text-field-bg;
+		padding-top: 10px;
+	}
 	&__group__text-author {
 		font-size: 12px;
+		padding-top: 5px;
 	}
 	a {
 		text-decoration: none;
