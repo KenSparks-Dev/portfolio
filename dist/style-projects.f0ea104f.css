@@ -2166,48 +2166,66 @@ body {
 }
 
 .project:nth-child(1) {
+  background-color: #6d73e7;
+  font-family: "MuseoModerno", cursive;
+  color: #fff;
+}
+
+.project:nth-child(2) {
   background-color: #fff;
   font-family: "Syne", sans-serif;
   color: #000;
 }
 
-.project:nth-child(2) {
+.project:nth-child(3) {
+  background-color: #0079ff;
+  font-family: "Space Mono", monospace;
+  color: #fff;
+}
+
+.project:nth-child(4) {
+  background-color: #202745;
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+}
+
+.project:nth-child(5) {
   background-color: #4c40e0;
   font-family: "Noto Sans KR", sans-serif;
   color: #fff;
 }
 
-.project:nth-child(3) {
+.project:nth-child(6) {
   background-color: #cf3b49;
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
-.project:nth-child(4) {
+.project:nth-child(7) {
   background-color: #6b2b77;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }
 
-.project:nth-child(5) {
+.project:nth-child(8) {
   background-color: #4f7df3;
   font-family: "Libre Franklin", sans-serif;
   color: #fff;
 }
 
-.project:nth-child(6) {
+.project:nth-child(9) {
   background-color: #4c4e61;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
-.project:nth-child(7) {
+.project:nth-child(10) {
   background-color: #31b2af;
   font-family: "Karla", sans-serif;
   color: #fff;
 }
 
-.project:nth-child(8) {
+.project:nth-child(11) {
   background-color: #fd714f;
   font-family: "Work Sans", sans-serif;
   color: #fff;
