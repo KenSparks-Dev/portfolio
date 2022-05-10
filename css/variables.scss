@@ -15,33 +15,37 @@ $project-three-bg-color: #0079ff;
 $project-three-font: 'Space Mono', monospace;
 $project-three-font-colors: #fff;
 
-$project-four-bg-color: #202745;
+$project-four-bg-color: #00494D;
 $project-four-font: 'Manrope', sans-serif;
 $project-four-font-colors: #ffffff;
 
-$project-five-bg-color: #4c40e0;
-$project-five-font: 'Noto Sans KR', sans-serif;
-$project-five-font-colors: #fff;
+$project-five-bg-color: #202745;
+$project-five-font: 'Manrope', sans-serif;
+$project-five-font-colors: #ffffff;
 
-$project-six-bg-color: #cf3b49;
-$project-six-font: 'Montserrat', sans-serif;
+$project-six-bg-color: #4c40e0;
+$project-six-font: 'Noto Sans KR', sans-serif;
 $project-six-font-colors: #fff;
 
-$project-seven-bg-color: #6b2b77;
-$project-seven-font: 'Open Sans', sans-serif;
-$project-seven-font-colors: #ffffff;
+$project-seven-bg-color: #cf3b49;
+$project-seven-font: 'Montserrat', sans-serif;
+$project-seven-font-colors: #fff;
 
-$project-eight-bg-color: #4f7df3;
-$project-eight-font: 'Libre Franklin', sans-serif;
-$project-eight-font-colors: #fff;
+$project-eight-bg-color: #6b2b77;
+$project-eight-font: 'Open Sans', sans-serif;
+$project-eight-font-colors: #ffffff;
 
-$project-nine-bg-color: #4c4e61;
-$project-nine-font: 'Poppins', sans-serif;
+$project-nine-bg-color: #4f7df3;
+$project-nine-font: 'Libre Franklin', sans-serif;
 $project-nine-font-colors: #fff;
 
-$project-ten-bg-color: #31b2af;
-$project-ten-font: 'Karla', sans-serif;
+$project-ten-bg-color: #4c4e61;
+$project-ten-font: 'Poppins', sans-serif;
 $project-ten-font-colors: #fff;
+
+$project-eleven-bg-color: #31b2af;
+$project-eleven-font: 'Karla', sans-serif;
+$project-eleven-font-colors: #fff;
 
 $project-footer-bg-color: #fd714f;
 $project-footer-font: 'Work Sans', sans-serif;
@@ -55,12 +59,12 @@ $shape-colors: $coral-shapes, $cyan-shapes, $springgreen-shapes;
 
 $bg-colors: $project-one-bg-color, $project-two-bg-color, $project-three-bg-color, $project-four-bg-color,
 	$project-five-bg-color, $project-six-bg-color, $project-seven-bg-color, $project-eight-bg-color,
-	$project-nine-bg-color, $project-ten-bg-color, $project-footer-bg-color;
+	$project-nine-bg-color, $project-ten-bg-color, $project-eleven-bg-color, $project-footer-bg-color;
 
 $fonts: $project-one-font, $project-two-font, $project-three-font, $project-four-font, $project-five-font,
-	$project-six-font, $project-seven-font, $project-eight-font, $project-nine-font, $project-ten-font,
+	$project-six-font, $project-seven-font, $project-eight-font, $project-nine-font, $project-ten-font, $project-eleven-font,
 	$project-footer-font;
 
 $font-colors: $project-one-font-colors, $project-two-font-colors, $project-three-font-colors, $project-four-font-colors,
 	$project-five-font-colors, $project-six-font-colors, $project-seven-font-colors, $project-eight-font-colors,
-	$project-nine-font-colors, $project-ten-font-colors, $project-footer-font-colors;
+	$project-nine-font-colors, $project-ten-font-colors, $project-eleven-font-colors, $project-footer-font-colors;
